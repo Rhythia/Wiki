@@ -15,23 +15,16 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Wiki', link: '/wiki' }
+      { text: 'Contribute', link: 'https://github.com/Rhythia/Wiki' }
     ],
 
     sidebar: [
       {
-        text: 'Home', link: '/',
+        text: 'Guides',
         items: [
-          { text: 'Wiki', link: '/wiki'},
-          { text: 'Contributing', link: 'https://github.com/Rhythia/Wiki'}
-        ],
-      },
-      {
-        text: 'Wiki', link: '/wiki',
-        items: [
-          { text: 'Download', link: '/wiki/download'}
+          { text: 'Installing the game', link: '/guides/download'},
         ]
-      }
+      },
     ],
 
     socialLinks: [

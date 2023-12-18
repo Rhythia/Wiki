@@ -7,7 +7,7 @@ hero:
   actions:
     - theme: brand
       text: Read the Wiki
-      link: /wiki
+      link: /guides
     - theme: alt
       text: Contribute to the Wiki
       link: https://github.com/Rhythia/Wiki
