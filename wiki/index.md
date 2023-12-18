@@ -1,25 +1,43 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
 hero:
-  name: "Rhythia"
-  text: "aim-based rhythm game"
-  tagline: My great project tagline
+  text: "Welcome to the Rhythia Wiki"
+  tagline: Learn how to install the game, create custom content, and contribute to the game!
   actions:
     - theme: brand
       text: Markdown Examples
       link: /markdown-examples
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Edit on GitHub
+      link: https://github.com/Rhythia/Wiki
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Work in Progress
+    details: This wiki is currently nowhere near finished. A lot still needs to be added and information may not be reliable!
+  - title: Support
+    details: You may get additional support from the <a class="highlight" href="https://discord.gg/rhythia">official Rhythia Discord server</a>.
+  - title: Other Links
+    details:
+      <ul>
+      <li class="point">
+        <a href="https://discord.gg/rhythia">Official Rhythia Discord server</a>
+      </li>
+      <li class="point">
+        <a href="https://discord.gg/zDsuN8s3aY">RU Rhythia Discord server</a>
+      </li>
+      <li class="point">
+        <a href="https://discord.gg/sK5pkEUWJG">dive's challenge sheet</a>
+      </li>
+      </ul>
 ---
 
+<style>
+a.highlight {
+  color: white;
+  text-decoration: underline;
+}
+li.point {
+  list-style: disc;
+}
+</style>
