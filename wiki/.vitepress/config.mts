@@ -15,22 +15,21 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Contribute', link: 'https://github.com/Rhythia/Wiki' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Guides',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Installing the game', link: '/guides/download'},
         ]
-      }
+      },
     ],
 
     socialLinks: [
       { icon: 'discord', link: 'https://discord.gg/rhythia' },
-      { icon: 'github', link: 'https://github.com/Rhythia/' }
+      { icon: 'github', link: 'https://github.com/Rhythia/' },
     ],
 
     footer:  {
