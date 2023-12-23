@@ -2,7 +2,7 @@
 layout: doc
 ---
 
-# Installing the game
+# Installing The Game
 Learn how to download the game on multiple platforms
 
 ## Windows
