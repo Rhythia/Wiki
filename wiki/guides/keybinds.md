@@ -1,3 +1,7 @@
+---
+layout: doc
+---
+
 # Keybinds
 
 Rhythia has a variety of keybinds in the game, said keybinds being:
