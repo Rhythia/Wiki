@@ -70,3 +70,11 @@ The following list of sounds are modifiable, and their file names:
 - Death: fail
 - Menu: menu
 - Personal best: pb
+
+## Installing custom backgrounds
+
+- In-game, head to your Settings
+- In the settings head to **Customization**
+- Find the setting <u>Custom World BG</u> and press **Replace**
+- Select the image you want as a background
+- Back to your settings page, upon an image selection, find the <u>Background World</u> setting and change the background to `Custom background`
