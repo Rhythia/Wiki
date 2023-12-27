@@ -78,3 +78,9 @@ The following list of sounds are modifiable, and their file names:
 - Find the setting <u>Custom World BG</u> and press **Replace**
 - Select the image you want as a background
 - Back to your settings page, upon an image selection, find the <u>Background World</u> setting and change the background to `Custom background`
+
+::: warning
+The following formats are not supported:
+- .gif
+- .mp4
+:::
