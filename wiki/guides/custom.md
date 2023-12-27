@@ -2,11 +2,11 @@
 layout: doc
 ---
 
-# Installing Custom Content
+# Installing custom content
 
 This guide teaches you how to download custom content for the game.
 
-## User Folder Locations
+## User folder focations
 
 - Linux: `~/.local/share/SoundSpacePlus`
 - Windows: `%appdata%/SoundSpacePlus`
@@ -15,7 +15,7 @@ This guide teaches you how to download custom content for the game.
 You can easily access the User folder by pressing `Open User Folder` in the settings page in-game!
 :::
 
-## Installing and Creating Custom Colorsets
+## Installing and creating custom colorsets
 
 - Head to your User folder
 - Find and Open the folder named `colorsets`
@@ -24,13 +24,13 @@ You can easily access the User folder by pressing `Open User Folder` in the sett
 - Save the file, go back to the game and press `Reload Content`
 - The colorset you made (or installed) should be available under the `Notes` tab in the settings
 
-## Installing Maps
+## Installing maps
 
 ### In-game
 - Inside your game, on the left bar, select `Content Manager`
 - Follow the instructions presented to you on-screen
 
-### Manual Install
+### Manual install
 *Recommended when installing multiple maps at once*
 
 - When in-game, press `Open User Folder`, or manually head to it in your file manager
@@ -39,7 +39,7 @@ You can easily access the User folder by pressing `Open User Folder` in the sett
     - If you're importing a <u>**.sspm**</u> (Sound Space Plus Map) map, drag the map(s) to the `maps` folder.
 - Once the maps were dragged to the respective folders, press `Reload Content` in-game.
 
-## Installing Cursors
+## Installing cursors
 
 - In-game, on the Settings page, head to `Customization`
 - Find the `Cursor Image` setting, and press `Click to replace`
@@ -47,7 +47,7 @@ You can easily access the User folder by pressing `Open User Folder` in the sett
 - You will be ask if you want to save the previous cursor image
 - Once you select the option you want, you're all set!
 
-## Installing Custom Audio
+## Installing custom audio
 
 ::: tip
 Supported formats

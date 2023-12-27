@@ -2,7 +2,7 @@
 layout: doc
 ---
 
-# Watching Replays
+# Watching replays
 
 The following guide teaches you how to watch a replay in the game.
 

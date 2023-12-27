@@ -22,10 +22,10 @@ export default defineConfig({
       {
         text: 'Guides',
         items: [
-          { text: 'Installing The Game', link: '/guides/download'},
+          { text: 'Installing the game', link: '/guides/download'},
           { text: 'Keybinds', link: '/guides/keybinds'},
-          { text: 'Installing Custom Content', link: '/guides/custom'},
-          { text: 'Watching Replays', link: '/guides/replay'}
+          { text: 'Installing custom content', link: '/guides/custom'},
+          { text: 'Watching replays', link: '/guides/replay'}
         ]
       },
     ],
