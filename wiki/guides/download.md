@@ -25,7 +25,7 @@ You can download it [here](https://learn.microsoft.com/en-us/cpp/windows/latest-
 
 Downloading for Linux
 
-### GUI Version
+### GUI version
 ::: info
 The following packages are recommended for this version:
 - thunar

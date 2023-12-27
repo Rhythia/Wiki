@@ -23,6 +23,9 @@ export default defineConfig({
         text: 'Guides',
         items: [
           { text: 'Installing the game', link: '/guides/download'},
+          { text: 'Keybinds', link: '/guides/keybinds'},
+          { text: 'Installing custom content', link: '/guides/custom'},
+          { text: 'Watching replays', link: '/guides/replay'}
         ]
       },
     ],
