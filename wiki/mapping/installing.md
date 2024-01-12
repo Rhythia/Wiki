@@ -2,7 +2,7 @@
 layout: doc
 ---
 
-# Mapping - editor installation
+# Map editor installation
 Learn how to map using the Sound Space Quantum Editor (SSQE, for short)
 
 ## 1: Installing the Editor
