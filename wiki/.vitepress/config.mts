@@ -25,10 +25,15 @@ export default defineConfig({
           { text: 'Installing the game', link: '/guides/download'},
           { text: 'Keybinds', link: '/guides/keybinds'},
           { text: 'Installing custom content', link: '/guides/custom'},
-          { text: 'Watching replays', link: '/guides/replay'},
-          { text: 'Mapping - part 1', link: '/guides/mapping1'}
+          { text: 'Watching replays', link: '/guides/replay'}
         ]
       },
+      {
+        text: 'Mapping',
+        items: [
+          { text: "Installing the editor", link: '/mapping/installing'}
+        ]
+      }
     ],
 
     socialLinks: [
