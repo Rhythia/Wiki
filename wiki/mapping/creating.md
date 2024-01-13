@@ -100,7 +100,7 @@ With that set, you’re done with the general usage explanation. You may check a
 
 ## Setting up timing points
 Before starting to place notes, it's important to time the map properly using the aforementioned **timing points**. Remember that you can set them up via: _Timing_ > _Open Timing Setup_:  
-![TimingSetup](../branding/timingsetup.jpg)
+![TimingSetup](../branding/timing.jpg)
 
 Inside this menu, we have a few more assets that have to do with timing points:
 - **Add Point**: Adds a new Timing Point with said BPM and Offset to the list above. Said list can have as many timing points as needed, but cannot have repeated values.
