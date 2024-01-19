@@ -1,5 +1,5 @@
 # Map creation
-Learn how to make your very own map
+Learn how to make your very own maps
 
 ## Creating a map
 On the menu that has popped up, you will see the following options:
@@ -130,7 +130,7 @@ Thus, if both happen at the same time, then both **BPM** and **offset** are wron
 :::
 
 ## Making a map
-Now that you have everything set up, you can start placing down notes. The keybindings are as follows:
+Now that you have everything set up, you can start placing down notes. The **keybinds** are as follows:
 - **Q** or **7** for top left corner (2|2)
 - **W** or **8** for top mid (1|2)                         
 - **E** or **9** for top right corner (0|2)
@@ -142,7 +142,7 @@ Now that you have everything set up, you can start placing down notes. The keybi
 - **C** or **3** for bottom right corner (0|0)
 
 :::info
-If you have an older version of the Editor, you might also be able to use the Y key as bottom left corner
+If you have an older version of the Editor, you might also be able to use the Y key as bottom left corner.
 :::  
 :::details
 The numbers represent the (-X|Y) coordinates of the note:  
@@ -163,7 +163,12 @@ And most importantly, **follow the community guidelines and have fun mapping!**
 Once you have finished mapping, you can save the map in three different ways:
 - Manually (_Ctrl_ + S): Triggers a data overwrite, meaning your older save will be replaced.
 - Automatically: Automatically overwrites the map’s data with a certain frequency (changed via _Settings_)
-- Clicking _Back to Menu_: Triggers a popup which will ask the user to save before closing the map.
+- Clicking _Back to Menu_: Triggers a popup which will ask the user to save before closing the map.  
+:::tip
+It is recommended that every map you make is stored in the Editor’s folder, so you won’t lose any.
+:::
+You might notice that a .ini file has saved along with your map.  
+This file includes the map's timing assets, so make sure you don't delete it.
 
-It is also recommended that every map you make is stored in the Editor’s folder, so you won’t lose any.
-If everything went fine until now, you should have created your first map! Congratulations!
+If everything went fine until now, you should have created your first map! Congratulations!  
+You may now skip to the [next section](WIP) or read [Customizing](customizing.md).
