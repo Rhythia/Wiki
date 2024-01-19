@@ -8,7 +8,7 @@ You may have noticed an image in the SSQE folder called _background_editor_.
 That image is the mapping menu's **background image**, you can replace it with another **.png** file.
 ### 1.2.- _Settings_ Menu
 In _Settings_, you have plenty of options to choose from:
-[Settings](../public/branding/settings.png)  
+[Settings](../branding/settings.png)
 - **<u>Colors</u>**:
 These are the colors that the Editor uses, and what they're used for:
     - **Color 1**: Text and BPM Lines. 

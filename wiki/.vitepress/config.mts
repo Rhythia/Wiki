@@ -32,7 +32,8 @@ export default defineConfig({
         text: 'Mapping',
         items: [
           { text: "Installing the editor", link: '/mapping/installing'},
-          { text: "Creating a map", link: '/mapping/creating'}
+          { text: "Creating a map", link: '/mapping/creating'},
+          { text: "Customizing", link: '/mapping/customizing'}
         ]
       }
     ],
