@@ -1,21 +1,5 @@
 import { defineConfig } from 'vitepress'
 import type { DefaultTheme } from 'vitepress'
-import { env } from 'node:process'
-
-const IS_DEV = env.NODE_ENV === 'production'
-
-const search = (): DefaultTheme.Config['search'] => {
-  if (IS_DEV) return { provider: 'local' }
-
-  return {
-    provider: 'algolia',
-    options: {
-      appId: 'MDQBBYI18P',
-      apiKey: '0f36f096b83770eae78115f2d88bd394',
-      indexName: 'bsmg',
-    },
-  }
-}
 
 type Route =
   | readonly [name: string, path: string, routes?: Route[]]
