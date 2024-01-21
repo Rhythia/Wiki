@@ -21,14 +21,14 @@ Mappers usually express patterns as letter arrays, where each letter represents 
 Take for example **ZAQWE**. This pattern can be subdivided into **Z -> A -> Q -> W -> E**, 
 which can then be translated into **(2|0, 2|1, 2|2, 1|2, 0|2)**.  
 In the Editor, said pattern looks like this:  
-![Slide](../../public/mapping/slide.jpg)  
+![Slide](../src/map/slide.jpg)  
 
 I'll make two necessary additions to this terminology:
 1. Quantum notes will be expressed as _[Note]'_, since they can be approximated to the regular keybinds.  
 For example, **E'** refers to a quantum note close to E, but its real position is undefined.
 2. If a section is outside the grid, I'll add by how much at the end of the section.  
 For example, **ZAQWE[+0.5]** refers the pattern mentioned earlier, but off the grid by 0.5 studs:
-![Slide0.5](../../public/mapping/slide05.jpg)
+![Slide0.5](../src/map/slide05.jpg)
 3. Lastly, to indicate a quantum slide, I'll just use the start and end notes, or if one of the slide's ends is also quantum, the note they're closest to.
    For example, **Q->E** refers to a quantum slide of unknown density that goes from Q to E.
 

@@ -29,7 +29,7 @@ This part of the tutorial is 100% accurate for SSQE v1.8.5.5 only. Versions befo
 :::
 
 ### Key Assets
-![KeyAssets](../branding/keyAssets.jpg)
+![KeyAssets](../src/map/keyAssets.jpg)
 These assets cannot be tampered with in any way and are mandatory to map:
 1. __Grid__: Where the maps are built on. It is a 3x3 grid, meaning it has 3 blocks height and 3 blocks width. This can be further amplified using _Quantum_ (explained later):
 2. __Progress Bar__: The bar represents the length of the song, while the dot over it represents the current timestamp, with a string above indicating it in milliseconds (ms) and another below in mm:ss format.
@@ -59,7 +59,7 @@ If the main grid is x = 3; 3/3 = 1 block spacing, a subgrid could be x = 12; 3/1
 ### Options, Timing and Patterns
 They're located near the top left corner of the mapping menu.
 ### 1. Options
-![Options](../branding/options.png)
+![Options](../src/map/options.png)
 
 1. **Autoplay**: Triggers a cursor which will automatically play the map for you.
 2. **Approach Squares**: Allows you to see the notes as they approach the grid.
@@ -77,20 +77,20 @@ They're located near the top left corner of the mapping menu.
 13. **Cursor Pos**: Adjusts where the note will be placed, relative to the track. 0% will be topmost left and vice versa.
 
 ### 2. Timing
-![Timing](../branding/timing.jpg)
+![Timing](../src/map/timing.jpg)
 1. **Export Offset\[ms]**: The Offset that the map will have when exported, in milliseconds.
 2. **Use Current ms**: Sets the Export Offset to the current timestamp.
 3. **Open BPM Setup**: Allows to set up Timing Points (introduced later on).
 4. **Edit Bookmarks**: Shows the current list of bookmarks for the map. These indicate the start/end of a part of the map. For example, they can be used to separate map sections. You only need to input a name and a timestamp for each of them.
 
 ### 3. Patterns
-![Patterns](../branding/patterns.png)
+![Patterns](../src/map/patterns.png)
 1. **Flips**: Selected notes will be flipped horizontally (_Shift+H_) or vertically (_Shift+V_) if these settings are triggered, respectively.
 2. **Nodes**: The base for Quantum curves and slides. Clicking _Store Nodes_ while selecting notes will turn them into nodes, which will trace a Quantum pattern using red "pseudo-notes", as seen below:
-![Patterns](../branding/nonbezier.jpg)  
+![Patterns](../src/map/nonbezier.jpg)  
 You may unselect the nodes at any time by clicking _Clear Nodes_.
 3. **Bézier Curves**: This function creates a curve via node-to-node iterations ([Bézier curve](https://en.wikipedia.org/wiki/Bézier_curve)) with the stored nodes. The red notes will be the curve output of the following nodes:
-   ![Patterns](../branding/bezier.jpg)
+   ![Patterns](../src/map/bezier.jpg)
 
 4. **Draw Bézier With Divisor**: Adjusts the note density of the curve. Clicking _Draw_ triggers the curve function.
 5. **Rotate by Degrees**: Rotates _clockwise_ the selected notes by a certain amount in degrees, which can also be negative.
@@ -100,7 +100,7 @@ With that set, you’re done with the general usage explanation. You may check a
 
 ## Setting up timing points
 Before starting to place notes, it's important to time the map properly using the aforementioned **timing points**. Remember that you can set them up via: _Timing_ > _Open Timing Setup_:  
-![TimingSetup](../branding/timing.jpg)
+![TimingSetup](../src/map/timing.jpg)
 
 Inside this menu, we have a few more assets that have to do with timing points:
 - **Add Point**: Adds a new Timing Point with said BPM and Offset to the list above. Said list can have as many timing points as needed, but cannot have repeated values.
@@ -146,7 +146,7 @@ If you have an older version of the Editor, you might also be able to use the Y 
 :::  
 :::details
 The numbers represent the (-X|Y) coordinates of the note:  
-![GridCoords](../branding/gridcoords.jpg)  
+![GridCoords](../src/map/gridcoords.jpg)  
 As you can see, the X axis is inverted.
 :::
 

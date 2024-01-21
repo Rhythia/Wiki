@@ -12,7 +12,7 @@ Learn how to map using the Sound Space Quantum Editor (SSQE, for short)
 - Once the zip file is extracted, run <u>SSQEUpdater.exe</u>. The Editor will be automatically set up and will also run afterwards.
 
 If the updater isn't running, you might have not extracted the file properly.  
-Otherwise, you may proceed to [Creating](creating.md).
+Otherwise, you may proceed to [Creating](../mapping/creating.md).
 
 
 
