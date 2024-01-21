@@ -1,14 +1,14 @@
 # Customization
 Decorate the Editor to your liking
 
-## 1.- External Assets
+## 1. External Assets
 You don't need to touch the Editor's cached assets to edit these.
 ### 1.1.- Editor BG
 You may have noticed an image in the SSQE folder called _background_editor_.  
 That image is the mapping menu's **background image**, you can replace it with another **.png** file.
 ### 1.2.- _Settings_ Menu
-In _Settings_, you have plenty of options to choose from:
-[Settings](../branding/settings.png)
+In _Settings_, you have plenty of options to choose from:  
+![Settings](../../public/branding/settings.png)   
 - **<u>Colors</u>**:
 These are the colors that the Editor uses, and what they're used for:
     - **Color 1**: Text and BPM Lines. 
@@ -48,5 +48,31 @@ Resets everything mentioned earlier to the default values.
 This setting has NO confirmation, for now.
 :::
 
-## 2.- Internal Assets
+## 2. Internal Assets
 In case you want further customization, you'll need to access the content inside the _assets_ folder, in the Editor folder.
+Said folder contains 3 distinct folders, which contain the Editor's main assets:
+- **_fonts_**: Contains the Editor's text fonts.
+- **_sounds_**: Contains the Editor's sound files.
+- **_textures_**: Contains the Editor's textures.
+
+### 2.1.- Fonts
+You can replace any of the Editor's fonts by downloading another font file (**.ttf** format) from any font websites like [DaFont](https://www.dafont.com/).  
+
+- **main.ttf**: Used for the text labels in the mapping menu.
+- **SourceSans.ttf**: Used for the changelog in the main menu.
+- **Square.ttf** and **Squareo.ttf**: Used for the button labels in the main menu.
+
+### 2.2.- Hitsounds 
+In this folder, you'll find:
+
+- **hit.wav**: Note hitsound (for notes on the track).
+- **click.wav**: Click sound.
+- **metronome.wav**: Metronome tick sound.
+
+Replacing any of those with another **.wav** file will cause them to be overridden.
+
+### 2.3.- Textures
+This folder contains the textures used for Editor: for now, only a single file called _widgets_, which contains the Editor's play/pause button.
+You can edit this image however you like, but keep in mind how the images are displayed.
+
+With this, the basic contents of the Editor are all clear. You may now proceed to [Patterns](../starter/patterns.md)

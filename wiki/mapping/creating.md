@@ -65,7 +65,7 @@ They're located near the top left corner of the mapping menu.
 2. **Approach Squares**: Allows you to see the notes as they approach the grid.
 3. **Grid Numbers**: Alows you to see the order of the notes you placed.
 4. **Grid Letters**: Allows you to see the keyboard letter associated with each grid position.
-5. **Quantum**: Enables you to push the limits of the 3x3 grid up to +0.875/-0.875, and inside the grid in intervals smaller than 1. Quantum notes aren't limited to certain positions on the grid, as seen later on.
+5. **Quantum**: Enables you to push the limits of the 3x3 grid up to +0.875/-0.875, and inside the grid in intervals smaller than 1.
 6. **Use Numpad**: Enables the number pad on your keyboard for mapping. 1 becomes Z, 2 will be X and so on. 0 remains unused.
 7. **Quantum Grid Lines**: Makes the grid lines readjust to the quantum divisor used in _Snapping_.
 8. **Snap to Grid**: If enabled, it allows the notes to be snapped to the grid lines. Useful for quantum mapping.
