@@ -122,11 +122,22 @@ QWEDCXZA**Q** and **Q**WEDSAZXC can be joined at **Q**, making **QWEDCXZAQWEDSAZ
 You may use the patterns above (or your own!) as building blocks for your map.
 
 ## 4. Pattern flow
+The **flow** of a pattern is the direction in which the pattern goes. For example, **QAZ** flows vertically.  
+In maps, we can find the following types of flow:
+- **Vertical** flow: Up to down or vice versa
+- **Horizontal** flow: Left to right or vice versa
+- **Circular** flow: In circles, clock-wise or counter-clockwise
+
+But they're often **mixed** to spice things up.  
+So, generally speaking, **flow indicates the deviance the player expects to go next and where it's supposed to**. 
+If the flow has been vertical for the last few seconds, the player may want to keep going, or switch to any other type.  
+
+Flow depends on the maps you play, the patterns you enjoy most or the ones you find easier, and your ability to play the game as well.
 
 ## 5. Pattern usage tips
-Here are some tips on how to use the patterns described above:
+Lastly, here are some tips on how to use patterns:
 - **Don’t be afraid to use the S note in slower sections**.
-- **Only use straights and sidesteps if necessary**.
+- **Only use stacks and sidesteps if necessary**.
 - **Avoid using too many 2x2 slides**.
 - **Avoid spirals that flow backwards**, for example: QWEDSAZX**C**XZAQEDC.
 - **Looping on a spiral shouldn't happen too often**, for example: **A**SXZ**A**SXZ**A** (3 loops).
