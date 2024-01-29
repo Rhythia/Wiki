@@ -1,6 +1,10 @@
 # Customization
 Decorate the Editor to your liking
 
+:::info
+This section is completely optional!
+:::
+
 ## 1. External Assets
 You don't need to touch the Editor's cached assets to edit these.
 ### 1.1.- Editor BG
@@ -8,7 +12,7 @@ You may have noticed an image in the SSQE folder called _background_editor_.
 That image is the mapping menu's **background image**, you can replace it with another **.png** file.
 ### 1.2.- _Settings_ Menu
 In _Settings_, you have plenty of options to choose from:  
-![Settings](../src/map/settings.png)   
+![Settings](../../public/mapping/settings.png)   
 - **<u>Colors</u>**:
 These are the colors that the Editor uses, and what they're used for:
     - **Color 1**: Text and BPM Lines. 
@@ -74,5 +78,3 @@ Replacing any of those with another **.wav** file will cause them to be overridd
 ### 2.3.- Textures
 This folder contains the textures used for Editor: for now, only a single file called _widgets_, which contains the Editor's play/pause button.
 You can edit this image however you like, but keep in mind how the images are displayed.
-
-With this, the basic contents of the Editor are all clear. You may now proceed to [Patterns](../mapping/patterns.md)
