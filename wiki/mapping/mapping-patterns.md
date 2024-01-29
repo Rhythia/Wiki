@@ -9,9 +9,11 @@ Learn how to use patterns to make maps
 It can be expressed as (x, y), where:
   - x = |x2 - x1|
   - y = |y2 - y1|  
-and p = (x1, y1), q = (x2, y2).  
+and p = (x1, y1), q = (x2, y2).
+Not to be confused with the modulo distance, _sqrt(x^2 + y^2)_.
 - Turning point: A note which suddenly changes the pattern's direction.
 - Quantum: Allows notes to be placed off the classic 3x3 grid's limits.
+- Vision block/Overlap: A note which covers other notes behind it. This makes maps harder to read. For example, (0.5|0.5) blocks X, S, D and C.
 - Spin: Gamemode where both grid and camera move with the cursor.
 - Half Lock (HL): Gamemode where only the grid moves with the cursor.
 - Full Lock (FL): Gamemode where both grid and camera are static.
@@ -21,14 +23,14 @@ Mappers usually express patterns as letter arrays, where each letter represents 
 Take for example **ZAQWE**. This pattern can be subdivided into **Z -> A -> Q -> W -> E**, 
 which can then be translated into **(2|0, 2|1, 2|2, 1|2, 0|2)**.  
 In the Editor, said pattern looks like this:  
-![Slide](../src/map/slide.jpg)  
+![Slide](../../public/mapping/slide.jpg)  
 
 I'll make two necessary additions to this terminology:
 1. Quantum notes will be expressed as _[Note]'_, since they can be approximated to the regular keybinds.  
 For example, **E'** refers to a quantum note close to E, but its real position is undefined.
 2. If a section is outside the grid, I'll add by how much at the end of the section.  
 For example, **ZAQWE[+0.5]** refers the pattern mentioned earlier, but off the grid by 0.5 studs:
-![Slide0.5](../src/map/slide05.jpg)
+![Slide0.5](../../public/mapping/slide05.jpg)
 3. Lastly, to indicate a quantum slide, I'll just use the start and end notes, or if one of the slide's ends is also quantum, the note they're closest to.
    For example, **Q->E** refers to a quantum slide of unknown density that goes from Q to E.
 
@@ -42,7 +44,7 @@ The pattern names are also often simplified (ex. Long jump -> Jump).
 They receive various names depending on their displacements' length:
 - **Long jump**: At least one of the displacements is longer than 2 studs. For example, **ZD** -> **(2, 1)**.
 - **Short jump**: None of the displacements is longer than 2 studs. For example, **ES** -> **(1, 1)**.
-- **Straight**: Both displacements are equal to 0. For example, **QQ** -> **(0, 0)**.
+- **Stack**: Both displacements are equal to 0. For example, **QQ** -> **(0, 0)**.
 
 ### 1.1.- Straight Jumps
 These jumps are followed in a straight line, so one of the displacements will be equal to 0:
@@ -74,7 +76,7 @@ The main difference between a slide and a spiral is their length. A spiral shoul
 Slides which are loops (end where they started) are **NOT** considered spirals.
 :::  
 
-We'll classify slides depending on their size. Spirals can be made by using **linking notes** (explained later).
+We'll classify slides depending on their size (height x width). Spirals can be made by using **linking notes** (explained later).
 
 ### 2.1.- 2x1 Slides
 - **Short slide**: 2 contiguous notes.  
@@ -102,7 +104,7 @@ A shortened version can be made by removing the 3rd and the 4th note.
 - **Square slide**: Combination of 4 slides, 2 of them being horizontal and the other 2 being vertical, which are joined at the grid’s corners and make up a square which goes around the whole grid.  
 **Example**: QWEDCXZAQ (full spin)
 
-### 2.4.- Other 3x3 Slide Examples
+### 2.4.- Other Slide Examples
 - **U-slide**: Combination of 3 slides, 1 of them being perpendicular to the rest, which are joined at the grid’s corners and go around the whole grid.  
 A variation of this pattern cuts off both ends of the slide.  
 **Example**: QAZXCDE (full slide), AZXCD (shortened slide)
@@ -117,45 +119,14 @@ A **linking note** is a note which 2 patterns have in common, which thus can be 
 :::info
 QWEDCXZA**Q** and **Q**WEDSAZXC can be joined at **Q**, making **QWEDCXZAQWEDSAZXC**.
 :::
-You may use the patterns above (or your own!) as building blocks for your patterns.
+You may use the patterns above (or your own!) as building blocks for your map.
 
-## 4. Proper Pattern Usage
-<u>How to use jumps properly</u>:
+## 4. Pattern flow
+
+## 5. Pattern usage tips
+Here are some tips on how to use the patterns described above:
 - **Don’t be afraid to use the S note in slower sections**.
-- **Try to keep the jumps as straightforward as possible**.
-- **Only use straights and sidesteps if necessary.**
-
-<u>How to use slides/spirals properly</u>:
-- **Avoid using many 2x2 slides**.
+- **Only use straights and sidesteps if necessary**.
+- **Avoid using too many 2x2 slides**.
 - **Avoid spirals that flow backwards**, for example: QWEDSAZX**C**XZAQEDC.
-- **Looping shouldn't happen too often**, for example: **A**SXZ**A**SXZ**A** (3 loops).
-
-## 5. Quantum
-Quantum is a way of “breaking” the traditional 3x3 grid: it allows mappers to place notes off the grid's bounds.   
-If the notes are outside the grid, it's referred to as “Offgrid Quantum” or just “Offgrid”.
-The further the notes are from the grid's boundaries, the smaller they will look ingame, and the harder they will be to hit.  
-
-Quantum can be applied to jumps by moving the notes off their original placements. 
-Similarly, in slides and spirals, extra notes can be added in between the original notes via **Bézier curves**.
-
-:::details
-Originally, it was a mapper known as **eipcness99** who found out that if you made notes have decimal values instead of the usual, the notes became out of place. 
-This was developed further when another mapper known as **HaxagonYT** used this technique on several of their maps like [Annoyo Iki no Bassu ni Notte Saraba](https://www.youtube.com/watch?v=zwP52A4oA18), 
-including offgrid quantum jumps throughout the map, which get wider on every drop.
-
-Even though Quantum is common nowadays, it wasn’t until SSQE was released that it became accessible to everyone, being its main objective making Quantum mapping easier.
-:::
-
-Let’s see how you can make Quantum patterns for your maps:
-1. **Editing certain values on the map data**:  
-Mess around with the position values for each note in the map's data.   
-Not recommended due to how easy it is to break a map, and even lose all your progress.  
-2. **Using any sort of rhythm game converter**:
-For example, the **osu!-SS map converter**. A guide on how to use a newer version can be found [here](https://discord.com/channels/1064060807320702996/1168937144295899197/1168942385607225445).
-3. Using the SSQE “Quantum” and "Bézier curve/Nodes" functions (most recommended)
-[COMMIT UNTIL HERE]
-
-
-  
-
-
+- **Looping on a spiral shouldn't happen too often**, for example: **A**SXZ**A**SXZ**A** (3 loops).
