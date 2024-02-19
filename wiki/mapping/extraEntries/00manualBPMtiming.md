@@ -2,13 +2,9 @@
 Learn how to time songs without using any external references.   
 Remember you can set up a timing point in _Timing_ >> _Open BPM Settings_.
 
-:::warning
-Please learn basic mapping before reading this, or read the basic articles first.
-:::
-
 ## Common terms
 - **Subdivision**: To split a beat in several, smaller ones. This can be achieved by raising the beat divisor.
-- **Syncope**: A note instance which doesn't snap to a certain beat divisor.
+- **Syncopation**: A note instance which doesn't snap to a certain beat divisor.
 
 ## Creating a proper timing point
 To set up a timing point correctly, you'll need the right BPM/Offset values, which can be found as follows:
@@ -22,10 +18,13 @@ The first metronome tick should match the first sound you want to map.
 3. Change the beat divisor to 1, and play the song past the timing point.
    - If it's synced, you somehow got the BPM right by chance 
    - Else, align the next metronome tick with the next main beat line by changing the BPM.
-4. If the metronome tick is synced with the song, you got it right!
+4. Once you have it set up, you may place some notes for additional feedback:
+- If all the notes are consistently off, the **offset** is wrong.
+- If the notes get progressively off sync, the **BPM** is wrong.  
+  Thus, if both happen at the same time, then both **BPM** and **offset** are wrong.
 
 :::tip  
-Try to be as precise as possible while timing, though perfect sync is not needed.
+Though perfect sync is not required, try to time the map as precisely as possible.
 - A general offbeat measure is **5-10ms**, anything more than **15ms** will feel off.
 - The metronome tick is **28ms** off compared to the note hitsound.
 :::
@@ -36,7 +35,7 @@ Most songs fall into this category.
 
 ## Variable BPM songs
 If you try to set up just a timing point, you'll notice that the metronome tick gets progressively offbeat. 
-So, setting up more timing points will be required.  
+So, keep setting up timing points until there are no more BPM changes to be found.
 We will split them into 2 cases:
 - **Regular**: Located on a whole beat (main beat line)   
 ![RegularTimingPoint](../../public/src/map/regularTimingPoint.jpg)
@@ -55,7 +54,7 @@ If the next note is earlier/later than a bpm line,
 you can override the current BPM at the timestamp by setting a timing point there.
 
 ### Ad-libitum, or free tempo songs
-Some songs, like live performances or experimental songs, may not have a fixed BPM, but fluctuate around a certain amount.  
+Certain songs, like live performances or experimental songs, may not have a fixed BPM, but fluctuate around a certain one.  
 In order to deal with this:
 - Focus on a melody or beat (especially drums)
 - Override the BPM whenever you need, using subdivision if necessary

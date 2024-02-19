@@ -35,21 +35,8 @@ Inside this menu, we have a few more assets that have to do with timing points:
   - Clone Hero (CH)
 - **Open BPM Tapper**: Allows you to approximate the song’s BPM by tapping a button to the beat.
 
-:::info
-To set up a proper timing point, you'll need to get the right BPM and offset for it.  
-You can get them from various sources:
-- From another rhythm game, and importing them via _Paste Timings_ or _Open Beatmap Timings_.
-- By importing the .ini file of another map, which contains every timing-related stuff.
-- From the song's source, but it's likely each timing point's offset will need to be manually set.
-- Manually, by tapping the BPM, then setting up the offset on the first beat of the map and checking if the divisor lines align up with the song. (Not recommended)  
-**Note:** Using BPM guessing websites is also not recommended due to how imprecise they are.
-
-Once you have it set up, you may add a few notes to check if the values are right.
-- If all the notes are consistently off, the **offset** is wrong.
-- If the notes get progressively off sync, the **BPM** is wrong.  
-Thus, if both happen at the same time, then both **BPM** and **offset** are wrong.
-
-For multiple BPM songs, repeat this process until no more BPM changes can be found.
+:::details
+Check out [this article](../extraEntries/00manualBPMtiming.md) to learn how to map a song manually.
 :::
 
 ## Note placing
@@ -76,20 +63,21 @@ As you can see, the X axis is inverted.
 ## Mapping tips
 Lastly, a few tips in case you've never mapped before:
 - **Play a lot of different maps before mapping**.
-- **Make sure you can beat your map**.
+- **Make sure you can beat your own maps**, playtesting is key to produce good maps.
 - **Use BPM and Offset properly**. This DOES make a big difference once you get the hang of it.
 - **Avoid using weird beat divisors**, anything other than 1, 2, 4, 6, 8, 12 or 16, while you’re starting.
-- **Do not overcomplicate things**. Focus on making fun maps first, then move on towards sync and creativity. I wouldn't even touch Quantum until you know your ways.
+- **Do not overcomplicate things**. Focus on making fun maps first, then move on towards representation and creativity.
 - **Do not rush, especially when you’re new to mapping**. 
 And most importantly, **follow the community guidelines and have fun mapping!**
 
 ## Saving
 Once you have finished mapping, you can save the map in three different ways:
-- Manually (_Ctrl_ + S): Triggers a data overwrite, meaning your older save will be replaced.
-- Automatically: Automatically overwrites the map’s data with a certain frequency (changed via _Settings_)
-- Clicking _Back to Menu_: Triggers a popup which will ask the user to save before closing the map.  
+- **Clicking _Ctrl_ + S**: Triggers a data overwrite, meaning your older save will be replaced.
+- **Automatically**: Automatically overwrites the map’s data with a certain frequency (changed via _Settings_)
+- **Clicking _Back to Menu_**: Triggers a popup which will ask the user to save before closing the map.  
 :::tip
-It is recommended that every map you make is stored in the Editor’s folder, so you won’t lose any.
+It is recommended that every map you make is stored in the Editor’s folder, so you won’t lose any.  
+You may even have map folders inside of it!
 :::
 You might notice that a .ini file has saved along with your map.  
 This file includes the map's timing assets, so make sure you don't delete it.
