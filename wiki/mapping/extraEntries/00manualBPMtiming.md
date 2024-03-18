@@ -1,22 +1,21 @@
 # Extra 00: Manual BPM Timing
 Learn how to time songs without using any external references.   
-Remember you can set up a timing point in _Timing_ >> _Open BPM Settings_.
+**Remember you can set up a timing point in _Timing_ >> _Open BPM Settings_.**
 
 ## Common terms
 - **Subdivision**: To split a beat in several, smaller ones. This can be achieved by raising the beat divisor.
-- **Syncopation**: A note instance which doesn't snap to a certain beat divisor.
+- **Syncopation**: A note instance which doesn't snap to a beat divisor.
 
 ## Creating a proper timing point
 To set up a timing point correctly, you'll need the right BPM/Offset values, which can be found as follows:
 1. First, get the song Offset, or the difference between the start of the song and the start of the map.
    1. Enable the **Metronome** function
-   2. Lower your speed down to 50% or less to find out where the first sound of the song is at.  
+   2. Lower your speed down to 50% or less to find out the timestamp of the first sound of the song.  
    If _Enable Waveform_ is on, you can try to match the first beat line with the start of the first wave on the track.
-   3. If you need to, set a timing point at 0ms with a random BPM, so you can snap the note to a beat line.
 2. Once you get the timestamp, try playing the song up to that point a couple of times. 
 The first metronome tick should match the first sound you want to map.
 3. Change the beat divisor to 1, and play the song past the timing point.
-   - If it's synced, you somehow got the BPM right by chance 
+   - If it's synced, you got the BPM right. 
    - Else, align the next metronome tick with the next main beat line by changing the BPM.
 4. Once you have it set up, you may place some notes for additional feedback:
 - If all the notes are consistently off, the **offset** is wrong.

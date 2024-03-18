@@ -126,8 +126,9 @@ Lastly, the section ends with some regular jumps followed by two slides.
 
 To summarize, the section is consistent and entertaining, and uses contrast to improve the map's quality.
 
-#### Song Representation
-As one can notice if they slow down the map, the sync of this section is poor. 
+#### Song Representation (WIP)
+As one can notice if they slow down the map, the sync of this section is poor.
+- The map has various missing notes
 
 
 
