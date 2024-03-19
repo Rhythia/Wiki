@@ -97,9 +97,20 @@ export default defineConfig({
             'Mapping',
             [
               ['Installing the editor', '/mapping/installing-the-editor'],
+              ['Difficulty Rating', '/mapping/difficulty-rating'],
               ['Creating maps', '/mapping/creating-maps'],
               ['Customizing the editor', '/mapping/editor-customization'],
+              ['Editor assets', '/mapping/editor-assets'],
               ['Basic mapping patterns', '/mapping/mapping-patterns'],
+              ['Basic quantum usage', '/mapping/basic-quantum-usage'],
+              ['Skillsets', '/mapping/skillsets'],
+              [
+                'Extra',
+                [
+                  ['Manual BPM Timing', '/mapping/extra/manual-bpm-timing'],
+                  ['Mapping theory', '/mapping/extra/mapping-theory'],
+                ],
+              ],
             ],
           ],
         ],
