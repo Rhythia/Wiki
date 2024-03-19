@@ -21,7 +21,7 @@ Therefore, importing audios directly is the best way around.
 
 ## Timing
 Before starting to place notes, it's important to time the map properly using **timing points**. You can set them up via: _Timing_ > _Open Timing Setup_:  
-![TimingSetup](../mapping/timing.jpg)
+![TimingSetup](../src/map/timing.jpg)
 
 Inside this menu, we have a few more assets that have to do with timing points:
 - **Add Point**: Adds a new Timing Point with said BPM and Offset to the list above. Said list can have as many timing points as needed, but cannot have repeated values.
@@ -36,7 +36,7 @@ Inside this menu, we have a few more assets that have to do with timing points:
 - **Open BPM Tapper**: Allows you to approximate the song’s BPM by tapping a button to the beat.
 
 :::details
-Check out [this article](../extraEntries/00manualBPMtiming.md) to learn how to map a song manually.
+Check out [this article](/mapping/extra/manual-bpm-timing) to learn how to map a song manually.
 :::
 
 ## Note placing

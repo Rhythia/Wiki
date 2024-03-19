@@ -37,9 +37,9 @@ If you try to set up just a timing point, you'll notice that the metronome tick 
 So, keep setting up timing points until there are no more BPM changes to be found.
 We will split them into 2 cases:
 - **Regular**: Located on a whole beat (main beat line)   
-![RegularTimingPoint](../../public/src/map/regularTimingPoint.jpg)
+![RegularTimingPoint](/src/map/regularTimingPoint.jpg)
 - **Syncopated**: Not located on a whole beat (ex. below snapped to a 1/8 beat)  
-![SyncopatedTimingPoint](../../public/src/map/syncopatedTimingPoint.jpg)
+![SyncopatedTimingPoint](/src/map/syncopatedTimingPoint.jpg)
 
 :::tip  
 Regular timing points are usually easy to time, but syncopated ones 
