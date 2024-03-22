@@ -91,6 +91,7 @@ export default defineConfig({
               ['Installing custom content', '/faq/custom-content'],
               ['Watching replays', '/faq/watching-replays'],
               ['In-game keybinds', '/faq/game-keybinds'],
+              ['Troubleshooting', '/faq/troubleshooting'],
             ],
           ],
           [
