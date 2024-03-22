@@ -63,7 +63,7 @@ This is an in-game error as shown by the image below
 - Running game as administrator
 - Deleting settings file in:
     - `%appdata%\SoundSpacePlus` on Windows
-    - `~/.local/Share/SoundSpacePlus` on Linux
+    - `~/.local/share/SoundSpacePlus` on Linux
 
 ::: warning
 This can also fix the following errors:
