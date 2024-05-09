@@ -9,7 +9,7 @@ Learn how to download the game on multiple platforms
 
 Downloading for Windows
 
-- Head to the [releases page](https://github.com/krmeet/sound-space-plus/releases/latest/) and select __windows.zip__ ([Download](https://github.com/krmeet/sound-space-plus/releases/latest/download/windows.zip))
+- Head to the [releases page](https://github.com/David20122/sound-space-plus/releases/latest/) and select __windows.zip__ ([Download](https://github.com/David20122/sound-space-plus/releases/latest/download/windows.zip))
 
 - Once you have downloaded the .zip file, extract it.
 
@@ -31,7 +31,7 @@ The following packages are recommended for this version:
 - thunar
 - thunar-archive-plugin
 :::
-- Head to the [releases page](https://github.com/krmeet/sound-space-plus/releases/latest/) and select __linux.zip__ ([Download](https://github.com/krmeet/sound-space-plus/releases/latest/download/linux.zip))
+- Head to the [releases page](https://github.com/David20122/sound-space-plus/releases/latest/) and select __linux.zip__ ([Download](https://github.com/David20122/sound-space-plus/releases/latest/download/linux.zip))
 
 - Once the linux.zip file has been downloaded, right click it and extract it.
 
@@ -43,7 +43,7 @@ The following packages are required for this version:
 - unzip
 :::
 
-- Head to the [releases page](https://github.com/krmeet/sound-space-plus/releases/latest/) and select __linux.zip__ ([Download](https://github.com/krmeet/sound-space-plus/releases/latest/download/linux.zip))
+- Head to the [releases page](https://github.com/David20122/sound-space-plus/releases/latest/) and select __linux.zip__ ([Download](https://github.com/David20122/sound-space-plus/releases/latest/download/linux.zip))
 
 - Once the file is downloaded, open your terminal and run the following commands:
 ```sh
