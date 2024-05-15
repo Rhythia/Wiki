@@ -114,6 +114,12 @@ export default defineConfig({
               ],
             ],
           ],
+          [
+            'Contributing',
+            [
+              ['Contributing to the wiki', '/dev/contributing-wiki'],
+            ],
+          ],
         ],
       }
     ),
