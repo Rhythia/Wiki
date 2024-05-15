@@ -9,6 +9,7 @@ This guide helps those who wish to contribute to the wiki
 ::: info
 This part requires knowledge of Markdown and some Typescript.
 If you want some base on how to work with Markdown, visit [this page](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+:::
 
 ## Requirements
 In this guide, the following software will be used and is recommended for those who want to help updating the wiki
