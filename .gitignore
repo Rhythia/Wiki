@@ -132,6 +132,3 @@ dist
 # Vitepress
 wiki/.vitepress/dist/
 wiki/.vitepress/cache/
-
-# NPM stuff
-package-lock.json
