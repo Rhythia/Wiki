@@ -21,7 +21,7 @@ features:
 
 <style>
 a.highlight {
-  color: white;
+  color: #3e63dd;
   text-decoration: underline;
 }
 </style>
