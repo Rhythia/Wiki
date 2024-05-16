@@ -118,6 +118,7 @@ export default defineConfig({
             'Contributing',
             [
               ['Contributing to the wiki', '/dev/contributing-wiki'],
+              ['Contributing to the game', '/dev/contributing-game'],
             ],
           ],
         ],
