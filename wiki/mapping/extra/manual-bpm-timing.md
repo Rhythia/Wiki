@@ -1,3 +1,7 @@
+---
+layout: doc
+---
+
 # Extra 00: Manual BPM Timing
 Learn how to time songs without using any external references.   
 **Remember you can set up a timing point in _Timing_ >> _Open BPM Settings_.**
@@ -18,9 +22,9 @@ The first metronome tick should match the first sound you want to map.
    - If it's synced, you got the BPM right. 
    - Else, align the next metronome tick with the next main beat line by changing the BPM.
 4. Once you have it set up, you may place some notes for additional feedback:
-- If all the notes are consistently off, the **offset** is wrong.
-- If the notes get progressively off sync, the **BPM** is wrong.  
-  Thus, if both happen at the same time, then both **BPM** and **offset** are wrong.
+- If all the notes are _consistently_ off sync, the **offset** is wrong.
+- If the notes get _progressively_ off sync, the **BPM** is wrong.  
+  These cases aren't mutually exclusive: both could happen at once.
 
 :::tip  
 Though perfect sync is not required, try to time the map as precisely as possible.
@@ -28,28 +32,27 @@ Though perfect sync is not required, try to time the map as precisely as possibl
 - The metronome tick is **28ms** off compared to the note hitsound.
 :::
 
-## Constant BPM songs
-The easiest kind of song to time. You'll only need to set up one timing point, and it'll last for the whole map.  
+## Constant BPM songs - 1 Timing Point
+The easiest kind of song to time. You'll only need to set up **one** timing point, and it'll last for the whole map.  
 Most songs fall into this category.
 
-## Variable BPM songs
+## Variable BPM songs - Many Timing Points
 If you try to set up just a timing point, you'll notice that the metronome tick gets progressively offbeat. 
-So, keep setting up timing points until there are no more BPM changes to be found.
+Keep setting up timing points until there are no more BPM changes to be found.
 We will split them into 2 cases:
 - **Regular**: Located on a whole beat (main beat line)   
 ![RegularTimingPoint](/src/map/regularTimingPoint.jpg)
 - **Syncopated**: Not located on a whole beat (ex. below snapped to a 1/8 beat)  
 ![SyncopatedTimingPoint](/src/map/syncopatedTimingPoint.jpg)
 
-:::tip  
-Regular timing points are usually easy to time, but syncopated ones 
-might have no beat to snap to. **This causes the previous BPM to be overridden, so be extra careful.**  
+:::tip
+Since syncopated timing points are not located on whole beats, consider subdividing the current BPM to snap them.
 :::
 
 ## Edge cases
 
 ### Fixing no-snap syncopation
-If the next note is earlier/later than a bpm line,
+If there's a note which can't be snapped to any beat divisor,
 you can override the current BPM at the timestamp by setting a timing point there.
 
 ### Ad-libitum, or free tempo songs
@@ -60,14 +63,7 @@ In order to deal with this:
 
 ## Summary
 - To set up a timing point properly:
-  - Get the Offset first using <=50% playback speed
-  - Then, get the BPM by snapping with the metronome
-- The timing point may or not be on a whole beat
-  - If it isn't, either subdivide or override the previous BPM
-- Using subdivision may help find any syncopation cases
-- Keep the offbeat at 15ms MAXIMUM.
-
-:::tip
-The subdivided BPM will not be effective if certain notes cannot be snapped to it!
-:::
-
+  - Get the Offset first using ≤50% playback speed.
+  - Then, get the BPM by snapping with the metronome.
+- Make sure the map is 15ms off AT MOST.
+- Using subdivision may help find any syncopation cases (when the timing point isn't on a whole beat).

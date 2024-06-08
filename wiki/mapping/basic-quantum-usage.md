@@ -1,3 +1,7 @@
+---
+layout: doc
+---
+
 # Basic Quantum Usage
 An introduction to Quantum usage
 
@@ -6,17 +10,15 @@ Quantum is a way of “breaking” the traditional 3x3 grid: it allows mappers t
 If the notes are outside the grid, it's referred to as “Offgrid Quantum” or just “Offgrid”.
 The further the notes are from the grid's boundaries, the smaller they will look ingame, and the harder they will be to hit.
 
-Quantum can be applied to jumps by moving the notes off their original placements.
-Similarly, in slides and spirals, extra notes can be added in between the original notes via **Bézier curves**.
-
 :::details
-Originally, it was a mapper known as **eipcness99** who found out that if you made notes have decimal values instead of the usual, the notes became out of place.
-This was developed further when another mapper known as **HaxagonYT** used this technique on several of their maps like [Annoyo Iki no Bassu ni Notte Saraba](https://www.youtube.com/watch?v=zwP52A4oA18),
-including offgrid quantum jumps throughout the map, which get wider on every drop.
-
+Originally, it was a mapper known as **eipcness99** who found out that if you made notes have decimal values instead of the usual,
+the notes became out of place, but the rest of the map still worked properly.  
+This was developed further in early 2020 when **HaxagonYT (a.k.a. Haxagon)** used this technique on several of their maps like [Annoyo Iki no Bassu ni Notte Saraba](https://www.youtube.com/watch?v=zwP52A4oA18),
+including offgrid Quantum jumps throughout the map.  
 Even though Quantum is common nowadays, it wasn’t until **SSQE** was released that it became accessible to everyone, being its main objective making Quantum mapping easier.
 :::
 
+## How to create Quantum patterns
 Let’s see how you can make Quantum patterns for your maps:
 1. **Editing certain values on the map data**:  
    Messing around with the position values for each note in the map's data.   
@@ -29,12 +31,35 @@ Let’s see how you can make Quantum patterns for your maps:
    If _**Snap to Grid**_ is enabled, the notes will snap over the quantum grid lines, which you can adjust using _Snapping_.
    Otherwise, the notes will snap with a spacing of **0.01** studs (minimum). This essentially makes note placing unrestricted.
 
-## Basic Quantum Usage
-Here are some general tips to enhance your quantum mapping:
-- **Abusing Bézier curves is not recommended, even less with divisors over 8**.
-- **Vision blocks should be avoided by spacing the patterns**.
-- **Do NOT overcomplicate patterns, else Spin players are going to have trouble beating the map**.
-- **Avoid surpassing +0.5 offgrid**. For example, (0|2.75) goes over said bound.
-- **Do not make quantum slides overlap, especially at the center note (S).**
+## Basic Applications
+Normally, Quantum is used to reposition the notes outside the grid lines, but there are some common
+techniques that are also useful although a bit more complex, such as:
 
-Further Quantum techniques will be explained later.
+### Offgrid
+An offgrid note/section happens when the notes are outside the grid's boundaries, thus making the notes seem saller ingame.  
+Offgrid can be used to extend jumps past the 2 blocks threshold; more generally, 
+to make patterns harder to hit without raising the BPM.
+
+Some good examples are Haxagon's ![Kami no Kotoba](https://www.youtube.com/watch?v=bCJoC8yqyrA&ab_channel=ARCW) (LOGIC?) and Iamuss76's Superhero (HARD).
+
+### Quantum slides/Bézier curves
+As explained in [Editor Assets](editor-assets.md), there is an option in the Patterns section of the Editor that allows you to 
+place a slide using a series of notes as nodes. It can also be made curve by selecting 
+The spacing between notes on the curve will depend on the input value of _Draw Bézier With Divisor_.
+Said value needs to necessarily be a whole number which is greater than 0.  
+
+:::tip
+Bézier curves can also be created off the grid if the nodes are offgrid too.
+:::
+
+Some good examples are Haxagon's ![Fuego (sakuraburst remix)](https://youtu.be/8DaDoa1LlMw) (LOGIC?) and Azurlexx's Teriqma (HARD).
+
+### Meganotes
+A term which refers to multiple notes which are positioned closely together, and need to be hit in the same frame.
+Effectively, this works as an "instakill" note that will drain a lot of HP if missed.  
+Plus, depending on the notes' spacing, it can be harder to hit all notes at once.
+
+Some good examples are (WIP).
+
+### Scale/Rotate functions
+These functions help create Quantum patterns 

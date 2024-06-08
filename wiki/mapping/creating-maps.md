@@ -1,3 +1,7 @@
+---
+layout: doc
+---
+
 # Map creation
 Learn how to make your very own maps using the Sound Space Quantum Editor (SSQE)
 
@@ -20,7 +24,10 @@ Therefore, importing audios directly is the best way around.
 :::
 
 ## Timing
-Before starting to place notes, it's important to time the map properly using **timing points**. You can set them up via: _Timing_ > _Open Timing Setup_:  
+Before starting to place notes, it's important to time the map properly using **timing points**.  
+A timing point is such
+
+You can set them up via: _Timing_ > _Open Timing Setup_:  
 ![TimingSetup](../public/src/map/timing.jpg)
 
 Inside this menu, we have a few more assets that have to do with timing points:
@@ -35,8 +42,10 @@ Inside this menu, we have a few more assets that have to do with timing points:
   - Clone Hero (CH)
 - **Open BPM Tapper**: Allows you to approximate the song’s BPM by tapping a button to the beat.
 
-:::details
-Check out [this article](/mapping/extra/manual-bpm-timing) to learn how to map a song manually.
+:::tip
+If the song you're mapping is popular enough to have a chart in another game, it's better to get the timings from it.  
+This is also recommended in case you're not familiar with timing songs.
+In case you want to learn how to, check out [this article](/mapping/extra/manual-bpm-timing).
 :::
 
 ## Note placing
@@ -61,25 +70,29 @@ As you can see, the X axis is inverted.
 :::
 
 ## Mapping tips
-Lastly, a few tips in case you've never mapped before:
-- **Play a lot of different maps before mapping**.
+A few tips in case you've never mapped any song before:
+- **Play a lot of different maps before mapping** to get a feel of which patterns you like and which ones you don't.
 - **Make sure you can beat your own maps**, playtesting is key to produce good maps.
-- **Use BPM and Offset properly**. This DOES make a big difference once you get the hang of it.
-- **Avoid using weird beat divisors**, anything other than 1, 2, 4, 6, 8, 12 or 16, while you’re starting.
-- **Do not overcomplicate things**. Focus on making fun maps first, then move on towards representation and creativity.
+- **Use BPM and Offset properly**. This does make a BIG difference once you get the hang of it.
+- **All placed notes should be _snapped_**; that is, on a BPM line (any divisor).
+- **It's more important to produce fun maps than hard maps.**
 - **Do not rush, especially when you’re new to mapping**. 
 And most importantly, **follow the community guidelines and have fun mapping!**
 
 ## Saving
-Once you have finished mapping, you can save the map in three different ways:
+Lastly, once you have finished mapping, you can save the map in three different ways:
 - **Clicking _Ctrl_ + S**: Triggers a data overwrite, meaning your older save will be replaced.
 - **Automatically**: Automatically overwrites the map’s data with a certain frequency (changed via _Settings_)
 - **Clicking _Back to Menu_**: Triggers a popup which will ask the user to save before closing the map.  
+
 :::tip
 It is recommended that every map you make is stored in the Editor’s folder, so you won’t lose any.  
 You may even have map folders inside of it!
 :::
+
+:::warning
 You might notice that a .ini file has saved along with your map.  
 This file includes the map's timing assets, so make sure you don't delete it.
+:::
 
 If everything went fine until now, you should have created your first map! Congratulations!
