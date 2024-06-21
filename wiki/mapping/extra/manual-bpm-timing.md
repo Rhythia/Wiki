@@ -29,7 +29,7 @@ The first metronome tick should match the first sound you want to map.
 :::tip  
 Though perfect sync is not required, try to time the map as precisely as possible.
 - A general offbeat measure is **5-10ms**, anything more than **15ms** will feel off.
-- The metronome tick is **28ms** off compared to the note hitsound.
+- The metronome tick is **28ms** off compared to the note hit sound.
 :::
 
 ## Constant BPM songs - 1 Timing Point

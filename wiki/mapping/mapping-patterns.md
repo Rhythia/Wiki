@@ -6,7 +6,7 @@ layout: doc
 Learn how to use patterns to make maps
 
 ## Common terms
-- Displacement (form. ![Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry)):
+- Spacing (form. ![Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry)):
 The distance of 2 points (p, q) on a 2-dimensional grid, when only travelling on the edges of said grid.
 - Quantum: Allows notes to be placed off the classic 3x3 grid's limits.
 - Spin: Gamemode where both grid and camera move with the cursor.
@@ -37,20 +37,20 @@ The pattern names are also often simplified (ex. Long jump -> Jump).
 ## 1. Jumps
 **Jumps** are displacements from a note to another, measured in studs. They can be **vertical**, **horizontal**, or a mix of both (**diagonal**). 
 We can classify any jump type into subcategories by **length**:
-- **Long jump**: At least one of the displacements is longer than 2 studs. For example, **ZD** -> **(2, 1)**.
-- **Short jump**: None of the displacements is longer than 2 studs. For example, **ES** -> **(1, 1)**.
-- **Stack**: Both displacements are equal to 0. For example, **QQ** -> **(0, 0)**.  
+- **Long jump**: At least one of the spacings is longer than 2 studs. For example, **ZD** -> **(2, 1)**.
+- **Short jump**: None of the spacings is longer than 2 studs. For example, **ES** -> **(1, 1)**.
+- **Stack**: Both spacings are equal to 0. For example, **QQ** -> **(0, 0)**.  
 
 :::details
-Normally, the term "jump" refers to a displacement of at least 2 blocks.
+Normally, the term "jump" refers to a spacing of at least 2 blocks.
 :::  
 
 We can also break down jumps into subcategories by their **movement** type:
 ### Straight Jumps
-These jumps are followed in a straight line, so one of the displacements will be equal to 0:
-- **Sidesteps/steps**: Short straight jumps. Commonly used in easier maps.
+These jumps are followed in a straight line, so one of the spacings will be equal to 0:
+- **Sidesteps/steps**: Straight jumps of spacing less than 2. Commonly used in easier maps.
 **Example**: AZAZ (bottom left corner sidestep)
-- Verticals/Horizontals: Long straight jumps. Commonly seen in pattern-wise maps. Probably the easiest type of jumps to read.  
+- Verticals/Horizontals: Straight jumps of spacing of at least 2. Commonly seen in pattern-wise maps. Probably the easiest type of jumps to read.  
 **Example**: ZQXWCE (verticals)
 
 :::details
@@ -85,13 +85,13 @@ Slides which are loops (end where they started, ex. **Q**WEDSA**Q**) are **NOT**
 Since there's many possibilities for slides and spirals, we'll go with some common examples based on their length (in notes).
 Spirals can also be made by linking slides together, so we won't be considering them here:
 
-### (2+1) 3-Note Slides
+### Short Slides
 - **Straight slide**: 3 contiguous vertical/horizontal notes
 **Example**: EDC 
 - **Corner slide**: 3 contiguous notes which go over a corner
 **Example**: AQW (top left)
 
-### (4+1) 5-Note Slides
+### Medium Slides
 - **Short S-slide**: 5 contiguous notes, which go from corner to corner including the whole middle column and flow like an "S" shape.    
 **Example**: EWSXZ (top right to bottom left)
 - **Short U-slide**: 5 contiguous notes, which go around half of the grid and flow like a "U" shape.
@@ -99,7 +99,7 @@ Spirals can also be made by linking slides together, so we won't be considering 
 - **L-slide**: 5 contiguous notes, which go around a corner and flow like an "L" shape. 
 **Example**: EDCXZ (top right to bottom left)
 
-### (8+1) 9-Note Slides
+### Long Slides
 - **S-slide**: 8 contiguous notes, which go from corner to corner including all columns and flow like an "S" shape.    
   **Example**: EDCXSWQAZ (top right to bottom left)
 - **O-Slide/Spin**: 8 contiguous notes, which go around the grid and flow like an "O" shape.

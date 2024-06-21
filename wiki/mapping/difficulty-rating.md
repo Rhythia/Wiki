@@ -12,7 +12,7 @@ Learn how the map rating works, this can come in handy to make mapsets or just t
 For example, a 400 BPM jump map could be considered equally hard as a 450 BPM spiral map,
 since spirals are considered easier to pl<y.
 
-In this case, we say spirals have a **450 - 400 = +50 base BPM offset**.
+In this case, we say spirals have a 450 - 400 = **+50** base BPM offset.
 
 ## Rating
 In the game, there are 5 main difficulties, which come with their own patterns and restrictions:

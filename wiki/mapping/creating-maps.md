@@ -72,12 +72,12 @@ As you can see, the X axis is inverted.
 ## Mapping tips
 A few tips in case you've never mapped any song before:
 - **Play a lot of different maps before mapping** to get a feel of which patterns you like and which ones you don't.
-- **Make sure you can beat your own maps**, playtesting is key to produce good maps.
-- **Use BPM and Offset properly**. This does make a BIG difference once you get the hang of it.
-- **All placed notes should be _snapped_**; that is, on a BPM line (any divisor).
-- **It's more important to produce fun maps than hard maps.**
-- **Do not rush, especially when you’re new to mapping**. 
-And most importantly, **follow the community guidelines and have fun mapping!**
+- **Make sure you can beat your map**, playtesting is key here.
+- **Use BPM and Offset properly**, should be obvious at this point.
+- **All placed notes should be snapped on a divisor line.**
+- **Apply your ideas consistently across your map.**
+- **Do not rush, especially when you’re new to mapping.**
+And most importantly, **follow the community guidelines and have fun!**
 
 ## Saving
 Lastly, once you have finished mapping, you can save the map in three different ways:
