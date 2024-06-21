@@ -6,10 +6,6 @@ layout: doc
 Learn how to refine your own maps
 
 ## Common terms
-- **Time signature**: Information about the beat measure of the song, indicated as follows:
-- - The upper/first number is the **number of notes** in a beat
-- - The lower/second number is the **note type** (how many notes of said type fit in a whole note)
-For example, a **3/4** has **3 quaver notes** per beat.
 - **Subdivision**: To split a beat in several, smaller ones. This can be achieved by raising the beat divisor.
 
 ## Introduction
@@ -47,7 +43,7 @@ Vibros are an exception to this rule.
 
 ## Representation pattern family
 It consists of design patterns which help build the map's rhythmic structure and emphasis:
-- **3-5-9 Patterning**: When mapping over a **binary** time signature (ex. 4/4),
+- **3-5-9 Patterning**: When mapping over a **binary** [time signature](https://en.wikipedia.org/wiki/Time_signature) (ex. 4/4),
 you can structure most patterns in groups of 3, 5 and 9 notes.  
 This helps produce slides, spirals and mixed sections (jumps + slides/spirals).
 
@@ -62,8 +58,15 @@ For the example earlier (4/4), you may use:
 - etc.  
 :::
 
-- **Velocity changes**: A way of introducing emphasis changes (without changing the song's BPM) is by editing the
+- **Speed changes**: A way of introducing emphasis changes (without changing the song's BPM) is by editing the
 **spacing** between notes.
-:::info
-Intense sections should have wider spacing as break sections.
-:::
+- In general, intense sections should have a wider spacing as break sections, and vice versa.
+- Quantum can also be used to make smaller gap differences when increasing/decreasing the map's intensity.
+
+- **Melodic layering**: Sometimes it's better to plan mapping a section beforehand, since there are cases where 
+overlapping 2 or more patterns, each corresponding to a different melody/rhythm, results in an awkward rhythm choice.  
+Songs with multiple time signatures at once will often have this issue.  
+
+To solve this, it's important to <u>focus on more than one melody ONLY if necessary</u>.
+- If a new melody is introduced, but it clashes with the current rhythmic structure, 
+you can switch one melody out with the new one.

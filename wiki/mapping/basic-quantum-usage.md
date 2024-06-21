@@ -15,7 +15,7 @@ Originally, it was a mapper known as **eipcness99** who found out that if you ma
 the notes became out of place, but the rest of the map still worked properly.  
 This was developed further in early 2020 when **HaxagonYT (a.k.a. Haxagon)** used this technique on several of their maps like [Annoyo Iki no Bassu ni Notte Saraba](https://www.youtube.com/watch?v=zwP52A4oA18),
 including offgrid Quantum jumps throughout the map.  
-Even though Quantum is common nowadays, it wasn’t until **SSQE** was released that it became accessible to everyone, being its main objective making Quantum mapping easier.
+Even though Quantum is common nowadays, it wasn't until **SSQE** was released that it became accessible to everyone, being its main objective making Quantum mapping easier.
 :::
 
 ## How to create Quantum patterns
@@ -59,7 +59,19 @@ A term which refers to multiple notes which are positioned closely together, and
 Effectively, this works as an "instakill" note that will drain a lot of HP if missed.  
 Plus, depending on the notes' spacing, it can be harder to hit all notes at once.
 
+:::warning
+For a map to be possible, the notes in a meganote should be no further than 1.14 (1.1375) meters apart!
+Be aware that greatly decreasing your hitbox size can make some maps impossible to beat!
+:::
+
 Some good examples are (WIP).
 
 ### Scale/Rotate functions
-These functions help create Quantum patterns 
+These functions help create pattern-wise Quantum sections by transforming the selected notes/patterns.
+- **Scale**: Zooms the notes in/out by a percentage.
+- - If the input is **100** (default), the notes will stay in place.
+- - If the input is **less than 100**, the notes will get zoomed in.
+- - If the input is **more than 100**, the notes will get zoomed out (offgrid).
+
+- **Rotate**: Rotates the notes around the center of the grid 
+(in [degrees](https://en.wikipedia.org/wiki/Degree_(angle)))
