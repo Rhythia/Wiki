@@ -18,20 +18,10 @@ Mappers usually express patterns as letter arrays, where each letter represents 
 Take for example **ZAQWE**. This pattern can be subdivided into **Z -> A -> Q -> W -> E**, 
 which can then be translated into **(2|0, 2|1, 2|2, 1|2, 0|2)**.  
 In the Editor, said pattern looks like this:  
-![Slide](/src/map/slide.jpg)  
-
-I'll make two necessary additions to this terminology:
-1. Quantum notes will be expressed as _[Note]'_, since they can be approximated to the regular keybinds.  
-For example, **E'** refers to a quantum note close to E, but its real position is undefined.
-2. If a section is outside the grid, I'll add by how much at the end of the section.  
-For example, **ZAQWE[+0.5]** refers the pattern mentioned earlier, but off the grid by 0.5 studs:
-![Slide0.5](/src/map/slide05.jpg)
-3. Lastly, to indicate a quantum slide, I'll just use the start and end notes, or if one of the slide's ends is also quantum, the note they're closest to.
-   For example, **Q->E** refers to a quantum slide of unknown density that goes from Q to E.
+![Slide](/src/map/slide.jpg)
 
 :::info
-These rules have no practical application and will be only used to simplify the explanation. 
-The pattern names are also often simplified (ex. Long jump -> Jump).
+These rules and pattern names have no practical application and will be only used to simplify the explanation.
 :::
 
 ## 1. Jumps
@@ -107,11 +97,16 @@ Spirals can also be made by linking slides together, so we won't be considering 
 
 ## 3. How to create patterns
 To make your own patterns, you must find a way to tie smaller patterns to each other using a **linking note**.  
-A **linking note** is a note which 2 patterns have in common, which thus can be used to join them.
-:::info
-QWEDCXZA**Q** and **Q**WEDSAZXC can be joined at **Q**, making **QWEDCXZAQWEDSAZXC**.
-:::
+A **linking note** is a note which 2 patterns have in common, which thus can be used to join them.  
+For example, QWEDCXZA**Q** and **Q**WEDSAZXC can be joined at **Q**, making **QWEDCXZAQWEDSAZXC**.  
+
 You may use the patterns above (or your own!) as building blocks for your map.
+
+:::info
+You may save patterns by selecting the desired pattern, then pressing _Shift_ + any numeric key (0-9).
+To place a stored pattern, simply press a key which has a bound pattern.
+To clear a binding made previously, press _Ctrl_ + the corresponding numeric key.
+:::
 
 ## 4. Flow
 The **flow** of a pattern is the direction in which the pattern goes. In most maps, flow is often changing to spice things up.
@@ -120,5 +115,6 @@ We can also classify it into types based on its direction:
 - **Horizontal**: Left to right or vice versa
 - **Circular**: In circles, clock-wise or counter-clockwise
 
-Generally, flow indicates the **deviance** between where you expect to go next and where you're supposed to.  
+Generally, flow indicates the **deviance** between where you expect to go next and where you're supposed to.   
+While playing inside your comfort zone, flow might not be noticeable.
 Flow depends on the maps you play, the patterns you enjoy most or the ones you find easier, and your ability to play the game as well.

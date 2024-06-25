@@ -8,12 +8,12 @@ Learn how skillsets work in Rhythia
 ## Definition
 A skillset is the ability to perform better in certain scenarios, usually as a consequence of practicing certain types of maps.
 It's based on a series of more general skills, associated with rhythm games:
-- Stamina: The ability to keep playing without becoming drained.
-- Control: The ability to adjust your cursor speed with ease.
-- Aim: The ability to hit patterns precisely.
-- Flow: The ability to adjust your cursor movement with ease.
-- Reading: The ability to understand patterns just by looking at them easily.
-- Consistency: The ability to keep your skill level consistent for long periods of time.
+- **Stamina**: The ability to keep playing without becoming drained.
+- **Control**: The ability to adjust your cursor speed with ease.
+- **Aim**: The ability to hit patterns precisely.
+- **Flow**: The ability to adjust your cursor movement with ease.
+- **Reading**: The ability to understand patterns just by looking at them easily.
+- **Consistency**: The ability to keep your skill level consistent for long periods of time.
 
 ## Types, patterns and required skills
 Here's a list with all the available skillsets:

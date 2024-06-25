@@ -60,14 +60,24 @@ Now that you have everything set up, you can start placing down notes. The **key
 - **X** or **2** for bottom mid (1|0)
 - **C** or **3** for bottom right corner (0|0)
 
-:::info
-If you have an older version of the Editor, you might also be able to use the Y key as bottom left corner.
-:::  
 :::details
 The numbers represent the (-X|Y) coordinates of the note:  
 ![GridCoords](../public/src/map/gridcoords.jpg)  
 As you can see, the X axis is inverted.
 :::
+
+:::info
+If you have an older version of the Editor, you might also be able to use the Y key as bottom left corner.
+:::
+
+### Other important keybinds
+- **Deleting notes**: Select the notes, then press _Delete_
+- **Undo/Redo**: Press _Ctrl_ + Z/Y
+- **Copy/Paste**: Select the notes, then press _Ctrl_ + C/V
+- **Moving the timeline**: _Left_/_Right_ to move 1 divisor line, scroll for unlimited movement
+- **Zoom**: Hold down _Ctrl_, then scroll
+- **Save**: Press _Ctrl_ + S
+Though these are the default keybinds, you may change them anytime in _Settings_.
 
 ## Mapping tips
 A few tips in case you've never mapped any song before:
@@ -81,7 +91,7 @@ And most importantly, **follow the community guidelines and have fun!**
 
 ## Saving
 Lastly, once you have finished mapping, you can save the map in three different ways:
-- **Clicking _Ctrl_ + S**: Triggers a data overwrite, meaning your older save will be replaced.
+- **Pressing _Ctrl_ + S**: Triggers a data overwrite, meaning your older save will be replaced.
 - **Automatically**: Automatically overwrites the map’s data with a certain frequency (changed via _Settings_)
 - **Clicking _Back to Menu_**: Triggers a popup which will ask the user to save before closing the map.  
 
