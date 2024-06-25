@@ -1,3 +1,7 @@
+---
+layout: doc
+---
+
 # Editor assets
 There are many assets in the Editor that may be helpful while mapping. Let's take a look at some of them:
 
@@ -63,10 +67,10 @@ They're located near the top left corner of the mapping menu.
 ### Patterns
 ![Patterns](/src/map/patterns.png)
 1. **Flips**: Selected notes will be flipped horizontally (_Shift+H_) or vertically (_Shift+V_) if these settings are triggered, respectively.
-2. **Nodes**: The base for Quantum curves and slides. Clicking _Store Nodes_ while selecting notes will turn them into nodes, which will trace a Quantum pattern using red "pseudo-notes", as seen below:
-   ![Patterns](/src/map/nonbezier.jpg)  
-   You may unselect the nodes at any time by clicking _Clear Nodes_.
-3. **Bézier Curves**: This function creates a curve via node-to-node iterations ([Bézier curve](https://en.wikipedia.org/wiki/Bézier_curve)) with the stored nodes. The red notes will be the curve output of the following nodes:
+2. **Nodes**: The base for Quantum curves and slides. Clicking _Store Nodes_ while selecting notes will turn them into nodes, which will trace a showcase of the output pattern with red notes, as seen below:
+   ![Patterns](/src/map/nonbezier.jpg)
+You may unselect the nodes at any time by clicking _Clear Nodes_.
+3. **Curve Bézier**: This function creates a **curve** via node-to-node iterations ([Bézier curve](https://en.wikipedia.org/wiki/Bézier_curve)) with the stored nodes. The red notes will be the curve output of the following nodes:
    ![Patterns](/src/map/bezier.jpg)
 
 4. **Draw Bézier With Divisor**: Adjusts the note density of the curve. Clicking _Draw_ triggers the curve function.
