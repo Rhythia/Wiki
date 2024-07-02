@@ -5,54 +5,55 @@ layout: doc
 # Rating
 Learn how the map rating works, this can come in handy to make mapsets or just to get a general sense of difficulty
 
+:::warning
+It is recommended to check out the following articles before reading:
+- [Quantum usage](basic-quantum-usage.md)
+- [Patterns](mapping-patterns.md)
+- [Skillsets](skillsets.md)
+:::
+
 ## Common terms
 - **Overmap**: A map which includes more notes than it should. Typically presented with high divisor usage.
-- **Undermap**: A map which includes fewer notes than it could. Notes are often omitted and emphasis is lowered too.
-- **Base BPM**: The BPM that a pattern should have to match the difficulty of a mainstream jump map.  
-For example, a 400 BPM jump map could be considered equally hard as a 450 BPM spiral map,
-since spirals are considered easier to pl<y.
+- **Undermap**: A map which includes fewer notes than it should. Notes are often omitted and emphasis is lowered too.
 
-In this case, we say spirals have a 450 - 400 = **+50** base BPM offset.
+## Considerations
+- When talking about BPM limits:
+- - Flicks/Jumps are considered to be mapped in 1/2 divisor with the stated BPM.
+- - Streams/Spirals are considered to be mapped in 1/4 divisor with the stated BPM.
+- Quantum patterns should resemble the behaviour (speed and movement) of certain regular patterns.
 
-## Rating
-In the game, there are 5 main difficulties, which come with their own patterns and restrictions:
+## Difficulty Ratings
+In the game, there are **5** difficulties, which come with their own patterns and restrictions:
 - **Easy**:
-  - Maps should have no Quantum notes. 
-  - Maps should feature 1/1 or very slow 1/2 beats.
-  - Base BPM should be between **60** and **80** (approx.)  
+  - Only 3x3 ongrid patterns are allowed.
+  - No real BPM limit, but keep the difficulty lower than Medium.
 
 - **Medium**:
-  - Maps should have up to light Quantum usage.
-  - Maps should feature 1/1 or slow 1/2 notes. 1/3 and 1/4 could be used very occasionally, as well as some more complicated patterns.
-  - Base BPM should be between **80** and **120** (approx.)
+  - Maps can have Quantum patterns, preferably as low-divisor Bézier curves at most. Offgrid is forbidden.
+  - No real BPM limit, but keep the difficulty harder than Easy.
   
 - **Hard**:
-  - Maps should have up to light Quantum usage.
-  - Maps can have a wide variety of patterns and divisors.
+  - Maps can have any sort of Quantum patterns, 
+  as long as the difficulty stays consistently under LOGIC?. Offgrid is forbidden.
   - Minor skillset usage allowed, as long as the map's difficulty fits.
-  - Base BPM should be between **120** and **200** (approx.)
+  - BPM should be between **175** and **250** (approx.)
 
 - **LOGIC?**:
-  - Maps can have up to heavy Quantum usage (depending on the BPM). 
-  - Maps can feature pretty much every pattern and divisor and focus on one or more skillsets.
-  - Maps shouldn't go over the BPM cap, keeping the skillset they're focused on in mind. Some skillsets may have a lower cap.
-  - Base BPM should be between **200** and **300** (approx.)
+  - Maps can have any sort of Quantum patterns, including offgrid, 
+  as long as the difficulty stays consistently under BRRR.
+  - Maps should focus on at least one skillset.
+  - BPM should be between **250** and **350** (approx.)
 
-- **BRRR (SS) / Tasukete (SS+/Rhythia)**:
-  - Maps can have any Quantum usage (depending on the BPM).
-  - Maps can have any pattern and divisor, and must focus on at least one skillset.
-  - Overmapping is allowed for the song to fit within the difficulty scaling, however, keep this to a minimum.
-  - Base BPM should be higher than **300**, and not much greater than **450** BPM (approx.)
+- **BRRR (SS) & Tasukete (SS+/Rhythia)**:
+  - Maps can have any sort of Quantum patterns, but make the patterns clear at all times; 
+  avoid messy patterns.
+  - Maps must focus on at least one skillset.
+  - Base BPM should be between **350** and **500** BPM (approx.)
 
-You may take a look at some [archived maps](https://drive.google.com/drive/folders/1OyiDMnREbLPb5gx3tzY01mdls0A-DVvj) to see some examples.  
-
-:::details You may change the difficulty name by importing the map using the **Vulnus map converter**, then converting it
-back to SS+/Rhythia!
-PD: This doesn't mean a map is ranked or special in any way.
-:::
+You may take a look at some [archived maps](https://drive.google.com/drive/folders/1OyiDMnREbLPb5gx3tzY01mdls0A-DVvj) to see some examples.
 
 ## Exceptions
 There's also some exceptions to these rules worth noting, such as:
-- If the map requires using a different divisor, the rules can be overridden to a certain extent.
-- The BPM limit depends on the map's patterns and/or skillsets.
+- If the map requires using a certain pattern for **expression**, the rules can be overridden to a certain extent.
 - Undermapping is allowed and encouraged for any of the lower difficulties.
+- Overmapping can be done on LOGIC?+ difficulties as long as it fits the song and to fit within the difficulty scaling.

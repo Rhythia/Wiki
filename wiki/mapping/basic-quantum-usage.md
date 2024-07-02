@@ -36,11 +36,15 @@ Normally, Quantum is used to reposition the notes outside the grid lines, but th
 techniques that are also useful although a bit more complex, such as:
 
 ### Offgrid
-An offgrid note/section happens when the notes are outside the grid's boundaries, thus making the notes seem saller ingame.  
-Offgrid can be used to extend jumps past the 2 blocks threshold; more generally, 
+An **offgrid** note is outside the grid's boundaries, thus making it seem smaller ingame.  
+This resource can be used to extend jumps past the 2 blocks threshold; more generally, 
 to make patterns harder to hit without raising the BPM.
 
 Some good examples are Haxagon's ![Kami no Kotoba](https://www.youtube.com/watch?v=bCJoC8yqyrA&ab_channel=ARCW) (LOGIC?) and Iamuss76's Superhero (HARD).
+
+:::tip
+The opposite of offgrid, which is the classic 3x3 grid without the extension, is known as **ongrid**.
+:::
 
 ### Quantum slides/Bézier curves
 As explained in [Editor Assets](editor-assets.md), there is an option in the Patterns section of the Editor that allows you to 
@@ -71,7 +75,7 @@ These functions help create pattern-wise Quantum sections by transforming the se
 - **Scale**: Zooms the notes in/out by a percentage.
 - - If the input is **100** (default), the notes will stay in place.
 - - If the input is **less than 100**, the notes will get zoomed in.
-- - If the input is **more than 100**, the notes will get zoomed out (offgrid).
+- - If the input is **more than 100**, the notes will get zoomed out.
 
 - **Rotate**: Rotates the notes around the center of the grid 
 (in [degrees](https://en.wikipedia.org/wiki/Degree_(angle)))

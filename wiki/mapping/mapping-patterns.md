@@ -7,7 +7,7 @@ Learn how to use patterns to make maps
 
 ## Common terms
 - Spacing (form. ![Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry)):
-The distance of 2 points (p, q) on a 2-dimensional grid, when only travelling on the edges of said grid.
+The distance between 2 points on a 2-dimensional grid, when only travelling along the edges of said grid.
 - Quantum: Allows notes to be placed off the classic 3x3 grid's limits.
 - Spin: Gamemode where both grid and camera move with the cursor.
 - Half Lock (HL): Gamemode where only the grid moves with the cursor.

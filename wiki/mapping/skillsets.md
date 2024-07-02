@@ -17,9 +17,9 @@ It's based on a series of more general skills, associated with rhythm games:
 
 ## Types, patterns and required skills
 Here's a list with all the available skillsets:
-- **Jumps**: Notes far across enough from one another (at least, 2 blocks)
+- **Flicks**/**Jumps**: Notes far across enough from one another (at least, 2 blocks)
 - **Stacks**: Groups of notes stacked behind each other.
-- **Streams**: Long sequences of notes close to one another.
+- **Spirals**/**Streams**: Long sequences of notes close to one another.
 - **Spins**: Notes arranged in any type of way that can be hit with a spinning motion.
 - **Slides**: Short sequences of notes close to one another.
 - **Tech**: A map section that uses more technical patterns.
@@ -40,5 +40,5 @@ The more requirements a map has, the harder it will usually be, regardless of BP
 has a rating around 40* (9.24* on PPv1)
 - [Kyu-kurarin (7_7 Bootleg)](https://cdn.discordapp.com/attachments/1120882599552880724/1181372626724192287/haxagon_-_iyowa_-_kyu-kurarin_7_7_bootleg.sspm?ex=6580d1ff&is=656e5cff&hm=bdbeab04c90c5a7d8302e8d30f2f372cf53941266fc045c6876fc638f3cd75f7&)
 has a star rating around 60* (11.09* on PPv1)
-Both maps have a similar base BPM (500), but Kyu-kurarin also includes more skillsets (7) than Livin' la ViDRRR Loca (3).
+Both maps have a similar BPM, but Kyu-kurarin also includes more skillsets (7) than Livin' la ViDRRR Loca (3).
 :::
