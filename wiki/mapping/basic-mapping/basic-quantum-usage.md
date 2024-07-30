@@ -60,15 +60,16 @@ Some good examples are Haxagon's ![Fuego (sakuraburst remix)](https://youtu.be/8
 
 ### Meganotes
 A term which refers to multiple notes which are positioned closely together, and need to be hit in the same frame.
-Effectively, this works as an "instakill" note that will drain a lot of HP if missed.  
+Effectively, this works as an _instakill_ note that will drain a lot of HP if missed.  
 Plus, depending on the notes' spacing, it can be harder to hit all notes at once.
 
+Some good examples are 
+
 :::warning
-For a map to be possible, the notes in a meganote should be no further than 1.14 (1.1375) meters apart!
-Be aware that greatly decreasing your hitbox size can make some maps impossible to beat!
+For a map to be possible, the notes in a meganote should be no further than **1.14** (1.1375) meters apart!
+_Be aware that decreasing your cursor's hitbox size can make some maps impossible to beat!_
 :::
 
-Some good examples are (WIP).
 
 ### Scale/Rotate functions
 These functions help create pattern-wise Quantum sections by transforming the selected notes/patterns.

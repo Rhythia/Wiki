@@ -26,7 +26,7 @@ The "categories" in this case are treated as the edge cases,
 meaning a map will normally fall in between them.
 
 Since this game shares gameplay similarities with "Mania" rhythm games (such as "osu!mania"),
-we will be using that spectrum to define ours.  
+we will be using that spectrum as a reference to define ours.  
 
 According to it, there are 2 main types of maps:
 - **Speed**
@@ -34,7 +34,7 @@ According to it, there are 2 main types of maps:
 These can be applied to Rhythia as follows.
 
 :::details
-For the sake of making things clear, the examples showcased here could be extreme cases.
+For the sake of making things clear, the examples showcased here could be considered edge cases.
 :::
 
 ### Mainstream/Speed
@@ -44,9 +44,9 @@ Most maps follow this style because players barely struggle at playing it.
 ![speed](../../public/src/video/speed.mp4)
 
 ### Tech
-This style focuses on technical patterns, which require great **reading** and **control** skills.   
+This style focuses on technical patterns, which require great **reading** and wrist **control** skills.   
 Although it can be very complex to fully understand, we can subdivide tech into categories based on the skill requirements:
-- **Light tech**: Focuses _lightly_ on **both** skills
+- **Light tech**: Focuses _lightly_ (as the name implies) on **both** skills
   - Example\[2]:    
 ![light](../../public/src/video/nmfull.mp4)
 - **Heavy tech**: Focuses on **both** skills 

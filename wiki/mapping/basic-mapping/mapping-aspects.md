@@ -7,22 +7,29 @@ Learn the main aspects that make up a map
 
 ## Introduction
 There are some common **traits** for every map that enhance the gameplay experience, which are:
-- **Execution**
-- **Song Representation**
-- **Creativity**
+- **Execution**: The **player**'s perspective of a map.
+- **Song Representation**: The **mapper**'s perspective of a map.
+- **Creativity**: How different the map feels from others.
+
+Finding the right balance between the three is key to approach mapping as a whole.
 
 ### Execution
-This concept encompasses every **in-game** aspect of a map; in other words, how the map plays out in terms of:
-- Patterns
-- Flow/Movement
-- Difficulty
+This concept encompasses every **in-game** aspect of a map:
+- **Patterns**
+- **Flow/Movement**
+- **Difficulty**
+
+[This article](../extra-mapping/execution.md) explains this concept in depth.
 
 ### Song Representation
-This concept refers to everything that can be seen in the editor: 
-- Sync
-- Rhythmic structure
-- Emphasis
+This concept refers to everything that can be seen in the **editor**: 
+- **Sync**: How the notes in the map correspond to the sounds in the song.
+- **Structure**: How each pattern in the song is represented.
+- **Emphasis**: How noticeable each pattern in the song should be.
+
+[This article](song_representation) explains this concept in depth.
 
 ### Creativity
-This concept focuses on finding ideas for maps and their further development during map making.  
-Unlike the others, this is only important while the map is being made, and cannot be changed afterward.
+This concept focuses on **finding ideas** for maps and their further development during map making.
+
+[This article](../extra-mapping/creativity.md) explains this concept in depth.

@@ -25,8 +25,10 @@ These assets cannot be tampered with in any way and are mandatory to map:
 You might need to edit these assets while mapping:
 1. **Zoom**: Zooms the track in or out. It can be triggered when scrolling while holding the “Ctrl” key down.
 2. **Auto-Advance**: When activated, after placing a note, the track will automatically advance to the next divisor line.
-3. **Beat Divisor**: Helps you divide a beat in several parts (subdivide), in order to map a section more accurately. Hold down the “Shift” key while scrolling to easily change it.
-4. **Snapping**: While “Quantum” is triggered, it allows you to snap the notes to a subgrid of __3/x__ blocks spacing, where x is your input on the bar.
+3. **Beat Divisor**: Help you divide a beat in **x** parts (subdivisions), where **x** is your input on the bar.
+Each subdivision will be **1/x** of a beat away.  
+You can either scroll the bar or hold down the “Shift” key while scrolling to change it.
+4. **Snapping**: While “Quantum” is triggered, it allows you to snap the notes to a subgrid of __3/x__ blocks spacing, where **x** is your input on the bar.
    :::tip
    If the main grid is x = 3; 3/3 = 1 block spacing, a subgrid could be x = 12; 3/12 = 0.25 blocks spacing.
    :::
@@ -61,8 +63,8 @@ They're located near the top left corner of the mapping menu.
 ![Timing](/src/map/timing.jpg)
 1. **Export Offset\[ms]**: The Offset that the map will have when exported, in milliseconds.
 2. **Use Current ms**: Sets the Export Offset to the current timestamp.
-3. **Open BPM Setup**: Allows to set up Timing Points (introduced later on).
-4. **Edit Bookmarks**: Shows the current list of bookmarks for the map. These indicate the start/end of a part of the map. For example, they can be used to separate map sections. You only need to input a name and a timestamp for each of them.
+3. **Open BPM Setup**: Allows to set up _timing points_, which constitute the timing of the map.
+4. **Edit Bookmarks**: Shows the current list of bookmarks for the map. These indicate the start/end of a part of the map.
 
 ### Patterns
 ![Patterns](/src/map/patterns.png)
@@ -72,7 +74,6 @@ They're located near the top left corner of the mapping menu.
 You may unselect the nodes at any time by clicking _Clear Nodes_.
 3. **Curve Bézier**: This function creates a **curve** via node-to-node iterations ([Bézier curve](https://en.wikipedia.org/wiki/Bézier_curve)) with the stored nodes. The red notes will be the curve output of the following nodes:
    ![Patterns](/src/map/bezier.jpg)
-
 4. **Draw Bézier With Divisor**: Adjusts the note density of the curve. Clicking _Draw_ triggers the curve function.
 5. **Rotate by Degrees**: Rotates _clockwise_ the selected notes by a certain amount in degrees, which can also be negative.
 6. **Scale by Percent**: Scales the selected notes by a percent.
