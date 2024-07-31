@@ -15,9 +15,9 @@ Finding the right balance between the three is key to approach mapping as a whol
 
 ### Execution
 This concept encompasses every **in-game** aspect of a map:
-- **Patterns**
-- **Flow/Movement**
-- **Difficulty**
+- **Patterns**: The note distribution throughout the map.
+- **Flow**: The way the player is required to move to beat the map.
+- **Difficulty**: How easy/hard the map is to beat.
 
 [This article](../extra-mapping/execution.md) explains this concept in depth.
 

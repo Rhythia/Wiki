@@ -6,14 +6,17 @@ layout: doc
 Learn how spacing can be used to enhance a beatmap
 
 ## Introduction
-The **spacing** between notes constitutes a medium of expression throughout any map.
+The **spacing** between notes constitutes the spatial distribution of patterns throughout any map.
 A proper spacing usage can help with **pattern recognition** which allows players to intuitively tell how to hit patterns.
 
 ## Spacing concepts
-The main concept for spacing usage in this game is **time-distance equality**, meaning the spacing between the notes
+The main concept one should care about in this game is **time-distance equality**, meaning the spacing between the notes
 on the grid should be more or less equal to the spacing between those same notes on the track.  
 An example could be:  
 ![example](../../public/src/map/spacing1.jpg)
+
+The red notes are separated by **1/2** beat gaps and approximately **2** blocks each
+whereas the yellow notes are separated by **1/4** beat gaps and approximately **1** block each.
 
 This is especially present in difficulties under LOGIC?, so that beginners may tell the difference between certain patterns.
 The most common spacing examples on the track are **1/2** and **1/4** spacings for **jumps** and **slides/spirals** respectively.
@@ -21,8 +24,8 @@ The most common spacing examples on the track are **1/2** and **1/4** spacings f
 But on harder maps, this is usually paired with **visual consistency** between rhythms, in order to express the song's mood better.
 
 You may think that the rule above is flawed, but the exact spacing between the notes doesn't matter as long as the player can guess
-how fast they should move at any given point, and that is achieved with **consistent spacing**;
-_similar rhythmic patterns should have similar spacings on the grid._
+how fast they should move at any given point (_rhythmic intuition_), and that is achieved with **consistent spacing**.  
+_Similar rhythmic patterns should have similar spacings on the grid._
 
 ## What about other, less common gaps?
 In these cases, one needs to be careful so that the pattern won't be misleading
@@ -34,9 +37,9 @@ For example, when adding a **1/1** gap in between **1/2** spacings, one can do t
 This trick also works the other way around.
 
 ### Some edge cases
-- Gaps longer than 1/1 usually cause no problems as the previous note
+- **Gaps longer than 1/1** usually cause no problems as the previous note
   will have likely been hit as you prepare for the next one.
-- Gaps using other time measures (like 1/3) or syncopated gaps (like 3/4) are usually handled by **intuition**,
+- **Gaps using other time measures** (like 1/3) or **syncopated gaps** (like 3/4) are usually handled by **intuition**,
   so the pattern matters more than the spacing between notes.
 
 ## Slide/Spiral ends and spacing
