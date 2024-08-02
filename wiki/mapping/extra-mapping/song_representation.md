@@ -26,6 +26,9 @@ where the combination of every one of them gives you the finished picture.
 With only one melody (and one layer), there's no problem; however, 
 things can get pretty complicated the moment the song starts throwing simultaneous melodies in.
 
+1. Firstly, lay out the main melody; if you need to map the whole section for it, 
+you may use a _straight_ to do so.
+
 [leave gaps to add stuff tip here]
 
 #### Conclusion

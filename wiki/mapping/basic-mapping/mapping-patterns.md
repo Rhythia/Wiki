@@ -10,7 +10,10 @@ Learn how to use patterns to make maps
 It can be on the X-axis (horizontal) or the Y-axis (vertical).
 - **Quantum**: A setting which allows notes to be placed off the regular 3x3 grid's limits.
 
-## Intro: Pattern terminology
+## Introduction
+
+
+## Pattern notation
 Mappers usually express patterns as **letter arrays**, where each letter represents its corresponding keybind on the grid.   
 In said pattern, notes should be hit in **reading order** (left to right) and **one at a time**.
 
@@ -18,18 +21,26 @@ Take for example **ZAQWE**. This pattern should be hit in this order: **Z -> A -
 and it looks like this in the editor:  
 ![Slide](/src/map/slide.jpg)
 
-## 1. Jumps
+## Jumps
 **Jumps** are displacements from a note to another, measured in **blocks**. 
 We can classify any jump type into subcategories by their spacings'**length**:
 - **Long jump**: At least one of the spacings is longer than 2 blocks.  
-For example, **ZD** means moving **2** blocks to the right and **1** block upwards.
+For example:
+![longjump](../../public/src/map/jump1.jpg)
+
 - **Short jump**: None of the spacings is longer than 2 blocks. 
-For example, **ES** means moving **1** block to the left and **1** block downwards.
-- **Stack**: Both spacings are equal to 0. 
-For example, **QQ** means moving **0** blocks in either direction.
+For example:
+![shortjump](../../public/src/map/jump2.jpg)
+
+- **Stack**: Both spacings are equal to 0.
+For example, **QQ**:
+![stack](../../public/src/map/jump3.jpg)
 
 :::details
-Commonly, the term "jump" refers _exclusively_ to **long** jumps. Short jumps are as common.
+Some notes on patterns:
+- A long stack (longer than 1/2 or 1 beat) is known as a **straight**.
+- A very fast and repetitive set of jumps is referred to as a **vibro**, used mostly on hard maps.
+- Commonly, the "jump" term refers _exclusively_ to **long** jumps. Short jumps aren't as common.
 :::  
 
 We can also break down jumps into subcategories by their **movement** type:
@@ -39,10 +50,6 @@ These jumps are followed in a straight line; one of their spacings will be equal
 **Example**: AZAZ (bottom left corner sidestep)
 - **Verticals**/**Horizontals**: Jumps of spacing of at least 2. Commonly seen in pattern-wise maps. Probably the easiest type of jumps to read.  
 **Example**: ZQXWCE (full vertical pattern)
-
-:::details
-If they are fast enough, they're also called **vibros**.
-:::
 
 ### Mixed Jumps
 These jumps involve both vertical and horizontal movement, one at a time or both simultaneously:
@@ -55,13 +62,15 @@ It is often hit by spinning in circles.
   Example: ZEXWCQDAEZ (full spin pattern)
 - **Square jumps**/**Spins**: Jumps which go around the grid’s edges. In essence, they're alternated verticals and horizontals.
 **Example**: QECZQECZ (2 spins)
-- **Pinjumps**: Jumps which, no matter their length, use a note alternately as an axis and go all over the grid. 
-Said axis doesn't have to be a corner note _exclusively_.
+- **Pinjumps**: Jumps which, _no matter their length_, use a note alternately as an axis and go all over the grid. 
 **Example**: ZWZDZEZQ (Z axis)
 
-## 2. Slides & Spirals
-- **Slides** are successions of notes that are 1 block away from each other. It’s the same as a long jump pattern, but the notes in between also need to be hit.
-- **Spirals** are successions of slides which go from one note to another, typically using the corner notes as turning points between slides.  
+## Slides & Spirals
+- _A **slide** is a succession of contiguous notes, all of which need to be hit on time._ 
+For example:
+![stack](../../public/src/map/slide1.jpg)
+Removing the notes in between 2 turning points of a slide effectively turns the pattern into jumps.
+- _A **spiral** is a  succession of slides, which tend to use the corners as turning points._  
 Slides/spirals tend to go all across the grid, which differentiates them from sidesteps, only involving 2 notes at a time. 
 
 :::info
@@ -69,18 +78,21 @@ The main difference between a slide and a spiral is their length. A spiral shoul
 Slides which end where they started, like **Q**WEDSA**Q** are **NOT** considered spirals.
 :::  
 
-Since there's many distinct possibilities for slides and spirals, 
-we'll go with some common examples based on their **length** (in notes).
-Spirals can also be made by linking slides together, so we won't be considering them here:
+As you may have noticed, there's many distinct possibilities for slides and spirals, 
+so let's take a look at some examples based on their **length** in notes (using a **1/4** beat divisor, which is the most common).
+
+:::details
+The names of the patterns are mostly self-made; most of the time, it's faster to use 
 
 ### Short Slides
-- **Straight slide**: 3 contiguous vertical/horizontal notes
+- **Straight slide**: 3 vertical/horizontal notes
 **Example**: EDC 
 - **Corner slide**: 3 contiguous notes which go over a corner
 **Example**: AQW (top left)
 
 ### Medium Slides
-- **Short S-slide**: 5 contiguous notes, which go from corner to corner including the whole middle column and flow like an "S" shape.    
+- **Short S-slide**: 5 contiguous notes, which go from corner to corner 
+including the whole middle column and flow like an "S" shape.    
 **Example**: EWSXZ (top right to bottom left)
 - **Short U-slide**: 5 contiguous notes, which go around half of the grid and flow like a "U" shape.
 **Example**: AZXCD (bottom half)
@@ -93,7 +105,9 @@ Spirals can also be made by linking slides together, so we won't be considering 
 - **O-Slide/Spin**: 8 contiguous notes, which go around the grid and flow like an "O" shape.
   **Example**: QWEDCXZAQ (clockwise spin)
 
-## 3. How to create patterns
+Spirals can also be made by linking slides together, so we didn't consider them here.
+
+## How to create patterns
 To make your own patterns, you must find a way to tie smaller patterns to each other using a **linking note**.  
 A **linking note** is a note which 2 patterns have in common, which thus can be used to join them.  
 For example, QWEDCXZA**Q** and **Q**WEDSAZXC can be joined at **Q**, making **QWEDCXZAQWEDSAZXC**.  
