@@ -7,7 +7,6 @@ Learn how to improve your song representation
 
 ## Common terms
 -**Build-up**: A song section that _builds up_ intensity, normally before a climax or drop.
--**Passive note**: A note which is directly in the intended place to be hit; thus, it doesn't require a speed change.
 
 ## Introduction
 As you may already know, song representation consists in transforming a song into patterns
@@ -17,33 +16,61 @@ So, without further ado, here are some handful techniques you may use to improve
 Most of them can be guessed by looking at good, popular maps over time
 or just by mapping a lot.
 
-## Sync [WIP]
+## Sync
 
 ### Complex rhythms
 Most players are used to playing and most importantly, noticing 1/1, 1/2 and 1/4 beats. 
-However, other time measures such as 3/4 are often harder to read if the player doesn't expect them.
-Let's take a look at some examples and how to handle them:
+However, other time measures (such as 3/4) are often harder to read if the player doesn't expect them.
+Let's take a look at some examples and how to handle them.
 
-#### Subdivision
+#### Binary rhythms and subdivision
 If the rhythm can be subdivided into any other basic patterns, it's better to do so to lay out patterns as intuitively
-as possible.
+as possible, using 1/2 and 1/4 gaps that players are more used to playing.
 For example:
+[WIP]
 
+Instead of mapping only the melody, a filler rhythm to follow the 1/2 gaps consistently throughout the pattern.
 
 #### Other rhythms
 If the rhythm doesn't fall into the case above, then it's likely that you've stumbled across a **ternary** time measure.
-Unlike _binary/quaternary_ time measures, _ternary_ ones are 3 beats long, meaning regular patterns won't work.
-Instead, it's better to add some **passive notes** which will be hit in the way of the intended pattern.
-As an example, a 1/6 slide in the middle of a 1/4 section:
+Unlike _binary/quaternary_ time measures, _ternary_ ones are 3 beats long, 
+so keeping the patterning consistent won't work.
+Instead, it's better to add notes to the pattern in a way that difficulty is minimally increased.  
+
+These notes are referred to as **passive** as they don't imply any speed change.
+As an example, a 1/6 slide in the middle of a 1/4 section:  
 ![sync2](../../public/src/map/sync2.jpg)
 
 As you can see here, the slide _is_ easier to hit as it's simpler and less spaced than the previous pattern. 
 Thus, _the difference between 1/4 and 1/6 can be reduced by making the faster patterns more approachable_.
 
 ### No-divisor syncing
-Sometimes, there are sound effects that are either too distorted or fast that it's impossible to map them
-fully accurately. In these cases, it's best to attempt to match the sound's density without making it overkill.
+Sometimes, there are sound effects that are either too distorted or imprecise that it's impossible to map them
+fully accurately. This happens in vocal songs with held notes, for example.
+In these cases, it's best to attempt to match the sound's density without making it overkill.
+There are a few ways to accomplish this:
 
+#### Raising the beat divisor
+**Raising the beat divisor**, normally by 1.5/2 times the current one, is one way of syncing imprecise sounds.
+This also helps to distinguish them from other rhythmic patterns and is also used to add **emphasis** (see below).  
+
+For example, 1/6 is being used here instead of 1/4:    
+![sync3](../../public/src/map/sync3.jpg)  
+
+_Although it might seem like it's breaking the current rhythm, certain beats still match_; 
+use this information to your advantage.
+
+#### Density inflation
+Another possibility is to **inflate the map's density** without affecting the difficulty.   
+Although there is no forced patterning, mappers normally use:
+- **Meganotes** for short or heavy sounds
+- **Slides** for prolonged or held sounds
+
+For example, [this map](https://youtu.be/ru2HSc3-tu8) [1] emphasizes the difference between shorter and longer sounds.
+
+#### Stacks
+Lastly, a more 'classic' approach would be to just add **stacks** to every note for the duration of the sound.
+_This solution has minimal impact on difficulty and can be used with the first solution simultaneously._
 
 ## Structure
 
@@ -136,3 +163,6 @@ and the intensity of each individual instrument_.
 The latter should also represent _contrast_ between several melodies, which help distinguish the song's different sections.   
 
 _However, the map should remain intuitively readable while each pattern should clearly represent something in the song._  
+
+## Sources
+[1] [Kobaryo - Sparkling Software v2.0](https://discord.com/channels/1064060807320702996/1260851465409396756)

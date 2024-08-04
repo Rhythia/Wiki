@@ -10,38 +10,66 @@ Learn how to time songs without using any external references.
 - **Subdivision**: To split a beat in several, smaller ones. This can be achieved by raising the beat divisor.
 - **Syncopation**: A note instance which doesn't snap to a beat divisor.
 
-## Creating a timing point
+## Introduction: How to create a timing point
+:::tip
+When timing a song, it is recommended to have _Enable Waveform_ on.
+The waves on the track indicate where each sound starts, which should definitely help.
+:::
+
 To set up a timing point correctly, you'll need the right BPM/Offset values, which can be found as follows:
-1. First, get the song Offset, or the difference between the start of the song and the start of the map.
-   1. Enable the **Metronome** function
-   2. Lower your speed down to 50% or less to find out the timestamp of the first sound of the song.  
-   If _Enable Waveform_ is on, you can try to match the beat lines with the start of the waves' crests on the track.
+
+1. First, to get the **Offset**, or _the difference between the start of the song and the start of the map_.
+   - Enable the **Metronome** function
+   - Lower your speed down (to around 50%) to find out the timestamp of the first important sound.
 2. Once you get the timestamp, try playing the song up to the timing point.
-The first metronome tick should match the first sound you want to map.
-3. Change the beat divisor to 1 (recommended), and play the song past the timing point. 
+_The first metronome tick should match the first sound you want to map._
+3. Then, input _arbitrary_ BPM values until the metronome tick matches the song's beat.
+   - If the metronome is too early, lower the value.
+   - If the metronome is too late, raise the value.
+4. Once you get an expected BPM value, _make sure it holds up_ by playing the song past the timing point.
+
+:::tip
+As the metronome enforces a **4/4** time signature, it's recommended to _get the lowest BPM value
+that allows for the song to be efficiently mapped_, meaning you have to change beat divisor as little as possible
+as well as avoiding high beat divisors such as 8/12/16 if possible.
+
+_If the time signature of the song isn't 4/4, you may need to change the BPM to match the downbeats._
+For example:
+200 BPM 3/4 equals 300 BPM 2/4 since:
+- 200 * 3/4 = 150
+- 300 * 2/4 = 150
+:::
+
+### After you have your timing point set up...
+1. Change the beat divisor to 1 (recommended), and play the song past the timing point.
    - If the metronome tick is _consistently_ off sync, the **offset** is wrong.
    - If the metronome tick gets _progressively_ off sync, the **BPM** is wrong.  
-     These cases aren't mutually exclusive: both could happen at once.
-4. If you didn't have any issues up to here, you're good to go!
+     _These cases aren't mutually exclusive: both could happen at once_.
+2. Check if any other timing points are needed until the end of the song.
+   - If there are, repeat the steps above from the top.
+   - If you didn't have any issues up to here, you're good to go!
 
 :::tip  
 Though perfect sync is not required, try to time the map as precisely as possible.
 - A general offbeat measure is **5-10ms**, anything more than **15ms** will feel off.
-- The metronome tick is **28ms** off compared to the note hit sound.
+- The metronome tick is **+28ms** off compared to the note hit sound.
 :::
 
-## Constant BPM songs - 1 timing point
+## Timing complexity
+Wwe can classify songs based on the number of timing points needed to time them:
+
+### Constant BPM songs - 1 timing point
 The easiest kind of song to time. You'll only need to set up **one** timing point, and it'll last for the whole map.  
 Most songs fall into this category.
 
-## Variable BPM songs - Many timing points
+### Variable BPM songs - Many timing points
 If you try to set up just a timing point, you'll notice that the metronome tick gets progressively offbeat. 
 Keep setting up timing points until there are no more BPM changes to be found.
 We will split them into 2 cases:
 - **Regular**: Located on a whole beat (main beat line)   
-![RegularTimingPoint](/src/map/regularTimingPoint.jpg)
+![RegularTimingPoint](/wiki/public/src/map/regularTimingPoint.jpg)
 - **Syncopated**: Not located on a whole beat (ex. below snapped to a 1/8 beat)  
-![SyncopatedTimingPoint](/src/map/syncopatedTimingPoint.jpg)
+![SyncopatedTimingPoint](/wiki/public/src/map/syncopatedTimingPoint.jpg)
 
 :::tip
 Since syncopated timing points are not located on whole beats, consider subdividing the current BPM to snap them.
@@ -49,8 +77,12 @@ Since syncopated timing points are not located on whole beats, consider subdivid
 
 ## Edge cases
 
+### Divisor reset
+Sometimes, a song may suddenly anticipate the downbeat, which makes all the song seem as if it was late.
+In these cases, adding an extra timing point with the same BPM might be needed.
+
 ### Fixing no-snap syncopation
-If there's a note which can't be snapped to any beat divisor,
+If there's a sound which can't be snapped to any beat divisor,
 you can override the current BPM at the timestamp by setting a timing point there.
 
 ### Ad-libitum, or free tempo songs
@@ -66,7 +98,7 @@ In order to deal with this problem:
 
 ## Summary
 - To set up a timing point properly:
-  - Get the Offset first using ≤50% playback speed.
+  - Get the Offset first using a lower playback speed.
   - Then, get the BPM by snapping with the metronome.
 - Make sure the map is 15ms off AT MOST.
 - Using subdivision may help find any syncopation cases (when the timing point isn't on a whole beat).

@@ -26,7 +26,6 @@ Therefore, importing audios directly is the best way around.
 ## Timing
 Before starting to place notes, it's important to time the map properly using **timing points**.
 
-
 You can set them up via: _Timing_ > _Open Timing Setup_:  
 ![TimingSetup](../../public/src/map/timing.jpg)
 
@@ -45,7 +44,7 @@ Both options support:
 - **Open BPM Tapper**: Allows you to approximate the song’s BPM by tapping a button to the beat.
 
 :::tip
-In case you're not familiar with timing songs, it's best to get the timings from other rhythm games' charts (like osu!).
+_In case you're not familiar with timing songs, it's best to get the timings from other rhythm games' charts (like osu!)._
 But if you're willing to learn, check out [this article](/mapping/extra/manual-bpm-timing).
 :::
 
