@@ -45,7 +45,7 @@ Both options support:
 
 :::tip
 _In case you're not familiar with timing songs, it's best to get the timings from other rhythm games' charts (like osu!)._
-But if you're willing to learn, check out [this article](/mapping/extra/manual-bpm-timing).
+But if you're willing to learn, check out [this article](../extra-mapping/manual-bpm-timing.md).
 :::
 
 ## Note placing

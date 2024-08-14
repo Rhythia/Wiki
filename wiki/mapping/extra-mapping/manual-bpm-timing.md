@@ -24,21 +24,10 @@ To set up a timing point correctly, you'll need the right BPM/Offset values, whi
 2. Once you get the timestamp, try playing the song up to the timing point.
 _The first metronome tick should match the first sound you want to map._
 3. Then, input _arbitrary_ BPM values until the metronome tick matches the song's beat.
-   - If the metronome is too early, lower the value.
-   - If the metronome is too late, raise the value.
+   - If the metronome is too **early**, lower the value.
+   - If the metronome is too **late**, raise the value.
 4. Once you get an expected BPM value, _make sure it holds up_ by playing the song past the timing point.
 
-:::tip
-As the metronome enforces a **4/4** time signature, it's recommended to _get the lowest BPM value
-that allows for the song to be efficiently mapped_, meaning you have to change beat divisor as little as possible
-as well as avoiding high beat divisors such as 8/12/16 if possible.
-
-_If the time signature of the song isn't 4/4, you may need to change the BPM to match the downbeats._
-For example:
-200 BPM 3/4 equals 300 BPM 2/4 since:
-- 200 * 3/4 = 150
-- 300 * 2/4 = 150
-:::
 
 ### After you have your timing point set up...
 1. Change the beat divisor to 1 (recommended), and play the song past the timing point.
@@ -56,13 +45,13 @@ Though perfect sync is not required, try to time the map as precisely as possibl
 :::
 
 ## Timing complexity
-Wwe can classify songs based on the number of timing points needed to time them:
+We can classify songs based on the number of timing points needed to time them:
 
 ### Constant BPM songs - 1 timing point
 The easiest kind of song to time. You'll only need to set up **one** timing point, and it'll last for the whole map.  
 Most songs fall into this category.
 
-### Variable BPM songs - Many timing points
+### Variable BPM songs - many timing points
 If you try to set up just a timing point, you'll notice that the metronome tick gets progressively offbeat. 
 Keep setting up timing points until there are no more BPM changes to be found.
 We will split them into 2 cases:
@@ -76,10 +65,23 @@ Since syncopated timing points are not located on whole beats, consider subdivid
 :::
 
 ## Edge cases
+If you still aren't able to figure out how to time a specific song, check out these examples:
 
 ### Divisor reset
-Sometimes, a song may suddenly anticipate the downbeat, which makes all the song seem as if it was late.
-In these cases, adding an extra timing point with the same BPM might be needed.
+Sometimes, a song may suddenly anticipate the downbeat (_syncopate_), which makes the rest of song 
+seem as if it was late despite the BPM being correct.  
+In these cases, adding an extra timing point with the same BPM might be needed. 
+This makes the downbeat fall in place correctly.
+
+### Divisor oddities
+Most songs you'll find have a constant **4/4** time signature (4 quavers per beat), but that's not always the case.
+Some songs have **polyrhythms** which just are more complex rhythms made out of simpler ones.
+[This one](https://www.youtube.com/watch?v=MF_ANz_hTzE) might be the most famous out of them.  
+
+In this case, _try to figure out how to **decompose** said rhythms in x/4 rhythms,
+then recalculate the BPM accordingly if needed_.
+[This video](https://youtu.be/3PbMV2OYaB8?si=6nrW8ly3WUvZr5H0) is a neat visual representation 
+of what you're intended to do.
 
 ### Fixing no-snap syncopation
 If there's a sound which can't be snapped to any beat divisor,
