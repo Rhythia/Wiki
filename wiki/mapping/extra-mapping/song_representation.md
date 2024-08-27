@@ -16,6 +16,15 @@ So, without further ado, here are some handful techniques you may use to improve
 Most of them can be guessed by looking at good, popular maps over time
 or just by mapping a lot.
 
+## Some general guidelines
+- _Every note in the map needs to be mapped to a sound in the song, but not the other way around._   
+You may intentionally leave sounds/melodies out, as we'll see later.
+- _It should be clear at all times what the main melody is._   
+The main melody should be the most catchy and/or engaging instrument of the song. 
+It doesn't have to be _exclusive_ (only 1 at a time) nor _unique_ (only 1 in the song).
+- _The way a song is represented shouldn't negatively affect how a map is played._
+This happens mostly when no playtesting is done; remember that **Execution > Representation**.
+
 ## Sync
 
 ### Complex rhythms
@@ -29,11 +38,9 @@ as possible, using 1/2 and 1/4 gaps that players are more used to playing.
 For example:
 [WIP]
 
-Instead of mapping only the melody, a filler rhythm to follow the 1/2 gaps consistently throughout the pattern.
-
 #### Other rhythms
-If the rhythm doesn't fall into the case above, then it's likely that you've stumbled across a **ternary** time measure.
-Unlike _binary/quaternary_ time measures, _ternary_ ones are 3 beats long, 
+If the rhythm doesn't fall into the case above, then it's likely that you've stumbled upon a **ternary** time measure.
+Unlike _binary/quaternary_ time measures, _ternary_ ones are **3** beats long, 
 so keeping the patterning consistent won't work.
 Instead, it's better to add notes to the pattern in a way that difficulty is minimally increased.  
 
@@ -41,8 +48,8 @@ These notes are referred to as **passive** as they don't imply any speed change.
 As an example, a 1/6 slide in the middle of a 1/4 section:  
 ![sync2](../../public/src/map/sync2.jpg)
 
-As you can see here, the slide _is_ easier to hit as it's simpler and less spaced than the previous pattern. 
-Thus, _the difference between 1/4 and 1/6 can be reduced by making the faster patterns more approachable_.
+As you can see here, the slide has been balanced out as it's simpler and less spaced than the previous pattern. 
+Thus, _the difference between divisors should be reduced by making the faster patterns more approachable_.
 
 ### No-divisor syncing
 Sometimes, there are sound effects that are either too distorted or imprecise that it's impossible to map them
@@ -66,19 +73,22 @@ Although there is no forced patterning, mappers normally use:
 - **Meganotes** for short or heavy sounds
 - **Slides** for prolonged or held sounds
 
-For example, [this map](https://youtu.be/ru2HSc3-tu8) [1] emphasizes the difference between shorter and longer sounds.
+For example, [this map](https://youtu.be/ru2HSc3-tu8)[1] emphasizes the difference between shorter and longer sounds.
 
 #### Stacks
 Lastly, a more 'classic' approach would be to just add **stacks** to every note for the duration of the sound.
 _This solution has minimal impact on difficulty and can be used with the first solution simultaneously._
 
+_A general rule for stacking is to use multiples or powers of the divisor you're mostly using._   
+For example, 2-4-8-16-32 (**2^x**) or 3-6-12 (**multiples of 3**).  
+
+If it's only for short stacks (1-3 notes) then you can use whatever divisor sounds most accurate.
+
 ## Structure
 
 ### Rhythmic layering
 You might have noticed how songs usually have more than instruments playing at once, 
-but only one instrument stands out, which corresponds to the song's **main melody**.  
-In case of doubt, it should be the most _dynamic_ and _prominent_ instrument, 
-and perhaps the most _recognizable_ one as well, meaning the song can be recognized by it.
+but only one instrument stands out, which corresponds to the song's **main melody**.
 
 The interaction between this instrument and the other, 
 less important ones constitutes the **rhythm layering** of the map, where each _layer_ is represented by an _instrument_.
@@ -92,29 +102,27 @@ Let's tackle this issue step by step:
 
 1. Firstly, **lay out the main melody**; even if it's just the rhythm.
 2. Then, you may **fill in the remaining gaps with other instruments** you find interesting or noticeable.
-_Make sure that all melodies can coexist rhythmically, that is, without overlaying each other!_
+_Make sure that all melodies can coexist rhythmically, that is, without overlapping with each other!_
 3. Lastly, **check that the final result doesn't feel jarring to play**; 
 stick to rhythms as basic as possible.
-You may adapt your rhythmic layout as many times as you wish before and during mapping.
+You may adapt this layout as many times as you wish during mapping.
 
 _The higher the difficulty of the map, the more relevance the second step will have._ Check out these 2 map sections:
 ![example1](../../public/src/map/rhythm1.jpg)
 ![example2](../../public/src/map/rhythm2.jpg)
 
 While the first section only uses 1/2 jumps, the second one incorporates other rhythms including 1/4 slides.
-Both ways of mapping this section are correct if the main melody stands out and the rhythmic structure makes sense.
-
-Like you have seen here, _there are multiple acceptable ways of making the same section_, 
-as long as each melody stays clearly different from others.
+_Both ways of mapping this section are correct as the main melody stands out and the rhythmic structure makes sense._
 
 #### Prioritizing
 When the main melody fades out or completely stops, or a background melody becomes relevant even if for a little while, 
 it's better to acknowledge what's going on in the background and create a rhythm
 _exclusively_ made with background instruments. This is known as a **filler rhythm**.
 
-_Adding a filler rhythm might help keeping the intensity consistent, 
-and it keeps the player busy until the melody takes over again._
-Also, it can often make a map section more engaging to play.
+Adding a filler rhythm provides some **benefits** such as:
+- Keeping the intensity of the map more or less consistent.
+- Keeping the player busy until the melody takes over again.
+- Making a map section more engaging to play than if it were empty.
 
 #### Conclusion
 To sum everything up, in order to make a proper rhythmic structure for your map:

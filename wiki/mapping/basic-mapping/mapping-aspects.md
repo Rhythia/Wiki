@@ -8,10 +8,11 @@ Learn the main aspects that make up a map
 ## Introduction
 There are some common **traits** for every map that enhance the gameplay experience, which are:
 - **Execution**: The **player**'s perspective of a map.
-- **Song Representation**: The **mapper**'s perspective of a map.
-- **Creativity**: How different the map feels from others.
+- **(Song) Representation**: The **mapper**'s perspective of a map.
+- **Creativity**: How innovative a map is.
 
-Finding the right balance between the three is key to approach mapping as a whole.
+_Finding the right balance between the three is key to approach mapping as a whole._
+From a general standpoint, **Execution > Representation > Creativity**, but this depends on each mapper.
 
 ### Execution
 This concept encompasses every **in-game** aspect of a map:
