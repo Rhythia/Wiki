@@ -47,17 +47,25 @@ Most maps follow this style because players barely struggle at playing it.
 This style focuses on technical patterns, which require great **reading** and wrist **control** skills.   
 Although it can be very complex to fully understand, we can subdivide tech into categories based on the skill requirements:
 - **Light tech**: Focuses _lightly_ (as the name implies) on **both** skills
-  - Example\[2]:    
-![light](/src/video/nmfull.mp4)
+  - Example\[2]:
+    <video width="1920" height="1080" controls>
+      <source src="/src/video/nmfull.mp4" type="video/mp4">
+    </video>    
 - **Heavy tech**: Focuses on **both** skills 
   - Example\[3]:   
-![heavy](/src/video/heavy.mp4)
+    <video width="1920" height="1080" controls>
+      <source src="/src/video/heavy.mp4" type="video/mp4">
+    </video>  
 - **Unconventional**: Focuses heavily on **reading**
   - Example\[4]: 
-![unconv](/src/video/unconv.mp4)
+    <video width="1920" height="1080" controls>
+      <source src="/src/video/unconv.mp4" type="video/mp4">
+    </video>  
 - **Antiflow**: Focuses heavily on wrist **control**
   - Example\[5]:
-![iknowyoucameforthis](/src/video/antiflo.mp4)
+    <video width="1920" height="1080" controls>
+      <source src="/src/video/antiflo.mp4" type="video/mp4">
+    </video>  
   
 ## Summary
 - You may develop your style depending on your gameplay experience, your own ideas and how you envision maps. 
