@@ -28,7 +28,7 @@ This concept refers to everything that can be seen in the **editor**:
 - **Structure**: How each pattern in the song is represented.
 - **Emphasis**: How noticeable each pattern in the song should be.
 
-[This article](song_representation) explains this concept in depth.
+[This article](../extra-mapping/song_representation) explains this concept in depth.
 
 ### Creativity
 This concept focuses on **finding ideas** for maps and their further development during map making.
