@@ -97,21 +97,46 @@ export default defineConfig({
           [
             'Mapping',
             [
-              ['Installing the editor', '/mapping/installing-the-editor'],
-              ['Difficulty Rating', '/mapping/difficulty-rating'],
-              ['Creating maps', '/mapping/creating-maps'],
-              ['Customizing the editor', '/mapping/editor-customization'],
-              ['Editor assets', '/mapping/editor-assets'],
-              ['Basic mapping patterns', '/mapping/mapping-patterns'],
-              ['Basic quantum usage', '/mapping/basic-quantum-usage'],
-              ['Skillsets', '/mapping/skillsets'],
               [
-                'Extra',
+                'Editor setup',
                 [
-                  ['Manual BPM Timing', '/mapping/extra/manual-bpm-timing'],
-                  ['Mapping theory', '/mapping/extra/mapping-theory'],
+                  ['Installing the editor', '/mapping/editor-setup/installing-the-editor'],
+                  ['Customizing the editor', '/mapping/editor-setup/editor-customization'],
+                  ['Editor assets', '/mapping/editor-setup/editor-assets'],
                 ],
               ],
+              [
+                'Basic mapping',
+                [
+                  ['Creating maps', '/mapping/basic-mapping/creating-maps'],
+                  ['Basic quantum usage', '/mapping/basic-mapping/basic-quantum-usage'],
+                  ['Mapping patterns', '/mapping/basic-mapping/mapping-patterns'],
+                  ['Mapping aspects', '/mapping/basic-mapping/mapping-aspects'],
+                  ['Difficulty rating', '/mapping/basic-mapping/difficulty-rating'],
+                ],
+              ],
+              [
+                'Extra mapping',
+                [
+                  ['Antipatterns', '/mapping/extra-mapping/antipatterns'],
+                  ['Basic spacing', '/mapping/extra-mapping/basic_spacing'],
+                  /*
+                  Enable this when it's done
+                  ['Creativity', '/mapping/extra-mapping/creativity'],
+                  */
+                  ['Execution', '/mapping/extra-mapping/execution'],
+                  ['Manual BPM Timing', '/mapping/extra-mapping/manual-bpm-timing'],
+                  ['Song representation', '/mapping/extra-mapping/song_representation'],
+                  ['Styles', '/mapping/extra-mapping/styles'],
+                ],
+              ],
+            ],
+          ],
+          [
+            'Contributing',
+            [
+              ['Contributing to the wiki', '/dev/contributing-wiki'],
+              ['Contributing to the game', '/dev/contributing-game'],
             ],
           ],
         ],

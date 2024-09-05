@@ -17,6 +17,7 @@ If you encounter any issues or bugs not shown here, or if any fixes don't work f
 - [Settings file corrupt or unreadable](#settings-file-corrupt-or-unreadable)
 - [Game not launching or weird behavior during launch](#game-not-launching-or-weird-behavior-during-launch)
 - [Lag, flickering, blank screen](#lag-flickering-blank-screen)
+- [Random stutters in-game](#random-stutters-in-game)
 - [Fullscreen not working](#fullscreen-not-working)
 - [Map database error](#map-database-error)
 - [100% GPU use](#100-gpu-use)
@@ -88,6 +89,18 @@ This is caused by screensharing software such as Discord, OBS, Shadowplay, etc.
     - Shadowplay
     - Windows Game Bar
     - Radeon ReLive
+
+## Random stutters in-game
+Mostly on Windows due to their "optimizations"
+
+### Fix
+- Go to the game location of your Rhythia installation
+- Right click on SoundSpacePlus.exe > Properties
+- Navigate to Compatibility > Tick "Disable fullscreen optimizations"
+
+Alternatively in Windows 11 you can also do the following:
+
+- Go to Settings > System > Display > Graphics > Change default graphics settings > Set "Optimizations for windowed games" to ON
 
 ## Fullscreen not working
 Happens mostly with Windows 11 users
