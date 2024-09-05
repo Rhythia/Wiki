@@ -81,7 +81,7 @@ export default defineConfig({
 
     sidebar: sidebar(
       {
-        name: 'Home Page',
+        name: '',
         path: '/',
         routes: [
           [
