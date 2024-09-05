@@ -41,7 +41,9 @@ For the sake of making things clear, the examples showcased here could be consid
 The most basic style, involving simple patterns which rely on **stamina/drain**, **consistency** and **speed**.   
 Most maps follow this style because players barely struggle at playing it.
 - Example\[1]:
-![speed](/src/video/speed.mp4)
+  <video width="1920" height="1080" controls>
+    <source src="/src/video/speed.mp4" type="video/mp4">
+  </video>   
 
 ### Tech
 This style focuses on technical patterns, which require great **reading** and wrist **control** skills.   
