@@ -1,8 +1,7 @@
 ---
 layout: doc
 ---
-
-
+# Execution
 
 ## Flow
 The **flow** of a pattern is the **direction** in which it goes.
