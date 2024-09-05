@@ -77,7 +77,7 @@ $ npm run docs:dev
 
 ## Adding new pages to the Wiki's sidebar
 ::: tip
-For guides to how you can format the page, visit http://localhost:5173/markdown-examples (make sure you ran the command found in [Testing the changes](#testing-the-changes))
+For guides to how you can format the page, visit [the examples page](/markdown-examples) (make sure you ran the command found in [Testing the changes](#testing-the-changes))
 :::
 
 As you may have guessed, adding pages won't add them automatically to the sidebar, as you must code them yourself.
