@@ -27,7 +27,7 @@ Therefore, importing audios directly is the best way around.
 Before starting to place notes, it's important to time the map properly using **timing points**.
 
 You can set them up via: _Timing_ > _Open Timing Setup_:  
-![TimingSetup](../../public/src/map/timing.jpg)
+![TimingSetup](/src/map/timing.jpg)
 
 Inside this menu, we have a few more assets that have to do with timing points:
 - **Add Point**: Adds a new timing point with the indicated BPM and Offset (on the left) to the list above. 
@@ -64,7 +64,7 @@ If you have an older version of the Editor, you might also be able to use the **
 
 :::details
 The numbers represent the (-X|Y) coordinates of the note:  
-![GridCoords](../../public/src/map/gridcoords.jpg)  
+![GridCoords](/src/map/gridcoords.jpg)  
 As you can see, the X axis is inverted.
 :::
 

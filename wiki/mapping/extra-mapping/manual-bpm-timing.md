@@ -56,9 +56,9 @@ If you try to set up just a timing point, you'll notice that the metronome tick 
 Keep setting up timing points until there are no more BPM changes to be found.
 We will split them into 2 cases:
 - **Regular**: Located on a whole beat (main beat line)   
-![RegularTimingPoint](/wiki/public/src/map/regularTimingPoint.jpg)
+![RegularTimingPoint](/src/map/regularTimingPoint.jpg)
 - **Syncopated**: Not located on a whole beat (ex. below snapped to a 1/8 beat)  
-![SyncopatedTimingPoint](/wiki/public/src/map/syncopatedTimingPoint.jpg)
+![SyncopatedTimingPoint](/src/map/syncopatedTimingPoint.jpg)
 
 :::tip
 Since syncopated timing points are not located on whole beats, consider subdividing the current BPM to snap them.

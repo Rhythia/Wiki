@@ -13,7 +13,7 @@ A proper spacing usage can help with **pattern recognition** which allows player
 The main concept one should care about in this game is **time-distance equality**, meaning the spacing between the notes
 on the grid should be more or less equal to the spacing between those same notes on the track.  
 An example could be:  
-![example](../../public/src/map/spacing1.jpg)
+![example](/src/map/spacing1.jpg)
 
 The red notes are separated by **1/2** beat gaps and approximately **2** blocks each
 whereas the yellow notes are separated by **1/4** beat gaps and approximately **1** block each.
@@ -46,7 +46,7 @@ This trick also works the other way around.
 When dealing with the end of a **shortly-spaced note sequence** (like a slide or a spiral),
 it's almost mandatory to leave an additional gap since the player will need to most likely jump to the next note.  
 An example could be:  
-![example2](../../public/src/map/spacing2.jpg)
+![example2](/src/map/spacing2.jpg)
 
 The spacing in this case matches that of a jump, but it doesn't always need to be like that.
 _Tighter time spacings make the movement more strict, and vice versa._
@@ -55,7 +55,7 @@ This can also be used along with to reflect the mood of the song.
 :::tip  
 If it feels like the pattern misses any sound during said time gap, it can be _filled_ with notes on a lower divisor.
 For example, the gap here is filled with stacks:
-![example3](../../public/src/map/spacing3.jpg)
+![example3](/src/map/spacing3.jpg)
 :::
 
 ## Distinguish sections based on spacing

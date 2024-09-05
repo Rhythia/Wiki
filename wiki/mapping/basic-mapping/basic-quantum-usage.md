@@ -63,7 +63,7 @@ A term which refers to multiple notes which are positioned closely together, and
 Effectively, this works as an _instakill_ note that will drain a lot of HP if missed.  
 Plus, depending on the notes' spacing, it can be harder to hit all notes at once.
 
-Some good examples are Cruwev's ![Laur-chan's Drawing Song (Hardcore Version)](../../public/src/video/laurchan.mp4)(BRRR/Tasukete) and
+Some good examples are Cruwev's ![Laur-chan's Drawing Song (Hardcore Version)](/src/video/laurchan.mp4)(BRRR/Tasukete) and
 
 
 :::warning

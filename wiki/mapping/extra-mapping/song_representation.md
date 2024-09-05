@@ -46,7 +46,7 @@ Instead, it's better to add notes to the pattern in a way that difficulty is min
 
 These notes are referred to as **passive** as they don't imply any speed change.
 As an example, a 1/6 slide in the middle of a 1/4 section:  
-![sync2](../../public/src/map/sync2.jpg)
+![sync2](/src/map/sync2.jpg)
 
 As you can see here, the slide has been balanced out as it's simpler and less spaced than the previous pattern. 
 Thus, _the difference between divisors should be reduced by making the faster patterns more approachable_.
@@ -62,7 +62,7 @@ There are a few ways to accomplish this:
 This also helps to distinguish them from other rhythmic patterns and is also used to add **emphasis** (see below).  
 
 For example, 1/6 is being used here instead of 1/4:    
-![sync3](../../public/src/map/sync3.jpg)  
+![sync3](/src/map/sync3.jpg)  
 
 _Although it might seem like it's breaking the current rhythm, certain beats still match_; 
 use this information to your advantage.
@@ -108,8 +108,8 @@ stick to rhythms as basic as possible.
 You may adapt this layout as many times as you wish during mapping.
 
 _The higher the difficulty of the map, the more relevance the second step will have._ Check out these 2 map sections:
-![example1](../../public/src/map/rhythm1.jpg)
-![example2](../../public/src/map/rhythm2.jpg)
+![example1](/src/map/rhythm1.jpg)
+![example2](/src/map/rhythm2.jpg)
 
 While the first section only uses 1/2 jumps, the second one incorporates other rhythms including 1/4 slides.
 _Both ways of mapping this section are correct as the main melody stands out and the rhythmic structure makes sense._
@@ -146,7 +146,7 @@ that stands out from the others.
 
 Looking at this image, you'll notice that a **jump** (indicated in red) is used to cut short the pattern,
 which announces a **sudden emphasis change**:  
-![example1](../../public/src/map/spacingemp1.jpg)  
+![example1](/src/map/spacingemp1.jpg)  
 
 Most notes in this example are _equally_ spaced since they have the same relevance in the song.
 That means the note that forces the player's reaction (the jump's destination) is more important than the others.
@@ -157,7 +157,7 @@ This manipulation is called **spacing emphasis** and most maps use it nowadays.
 #### Contrast
 Spacing emphasis can be used to express **contrast** between 2 sections.
 Take a look at this example:  
-![example2](../../public/src/map/spacingemp2.jpg)  
+![example2](/src/map/spacingemp2.jpg)  
 
 The intensity of the map changes on the 2nd measure, as the spacing is drastically different from before.
 This is a case of _exponential contrast_.

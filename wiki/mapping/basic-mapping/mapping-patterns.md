@@ -6,7 +6,7 @@ layout: doc
 Learn how to use patterns to make maps
 
 ## Common terms
-- **Spacing**: The distance (![Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry)) between 2 notes.
+- **Spacing**: The distance ([Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry)) between 2 notes.
 It can be on the X-axis (horizontal) or the Y-axis (vertical).
 - **Quantum**: A setting which allows notes to be placed off the regular 3x3 grid's limits.
 
@@ -25,7 +25,7 @@ In said pattern, notes should be hit in **reading order** (left to right) and **
 
 Take for example **ZAQWE**. This pattern should be hit in this order: **Z -> A -> Q -> W -> E**, 
 and it looks like this in the editor:  
-![Slide](../../public/src/map/slide.jpg)
+![Slide](/src/map/slide.jpg)
 
 :::details
 Most of the pattern names are made up for explanatory purposes, in most cases, 
@@ -38,15 +38,15 @@ _A **jump** is a single displacement between 2 notes._
 We can classify any jump type into subcategories by their spacings'**length**:
 - **Long jump**: At least one of the spacings is longer than 2 blocks.  
 For example:
-![longjump](../../public/src/map/jump1.jpg)
+![longjump](/src/map/jump1.jpg)
 
 - **Short jump**: None of the spacings is longer than 2 blocks. 
 For example:
-![shortjump](../../public/src/map/jump2.jpg)
+![shortjump](/src/map/jump2.jpg)
 
 - **Stack**: Both spacings are equal to 0.
 For example:
-![stack](../../public/src/map/jump3.jpg)
+![stack](/src/map/jump3.jpg)
 
 :::details
 Some notes on jump patterns:
@@ -80,10 +80,10 @@ It is often hit by spinning in circles.
 ## Slides & Spirals
 - _A **slide** is a succession of contiguous notes, all of which need to be hit on time._ 
 For example:
-![slide](../../public/src/map/slide1.jpg)
+![slide](/src/map/slide1.jpg)
 - _A **spiral** is a succession of slides which usually join at the grid's corners._ 
 For example:
-![spiral](../../public/src/map/slide2.jpg)
+![spiral](/src/map/slide2.jpg)
 
 :::info
 The example above shows only a segment of the spiral. _A spiral should loop across the same positions more than once._  
