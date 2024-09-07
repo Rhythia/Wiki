@@ -93,14 +93,24 @@ This is caused by screensharing software such as Discord, OBS, Shadowplay, etc.
 ## Random stutters in-game
 Mostly on Windows due to their "optimizations"
 
-### Fix
-- Go to the game location of your Rhythia installation
+### Potential fixes
+For both Windows 10 and Windows 11 users:
+- Head to the location of your Rhythia installation
 - Right click on SoundSpacePlus.exe > Properties
-- Navigate to Compatibility > Tick "Disable fullscreen optimizations"
+- Navigate to Compatibility > Enable "Disable fullscreen optimizations" > Apply > OK
 
 Alternatively in Windows 11 you can also do the following:
-
 - Go to Settings > System > Display > Graphics > Change default graphics settings > Set "Optimizations for windowed games" to ON
+
+You can also try:
+- Enabling fullscreen in your game due to Windows's fullscreen optimization as mentioned in [this Godot article](https://docs.godotengine.org/en/3.5/tutorials/rendering/jitter_stutter.html).
+
+::: warning
+The "Optimizations for windowed games" is a Windows 11 option.
+Every time you reboot your system, make sure to turn it ON since Microsoft automatically disables it.
+
+<sub>*(editor's note: at least in my experience)*</sub>
+:::
 
 ## Fullscreen not working
 Happens mostly with Windows 11 users
