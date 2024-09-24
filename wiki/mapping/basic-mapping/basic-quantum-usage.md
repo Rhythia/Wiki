@@ -40,7 +40,7 @@ An **offgrid** note is outside the grid's boundaries, thus making it seem smalle
 This resource can be used to extend jumps past the 2 blocks threshold; more generally, 
 to make patterns harder to hit without raising the BPM.
 
-Some good examples are Haxagon's ![Kami no Kotoba](https://www.youtube.com/watch?v=bCJoC8yqyrA&ab_channel=ARCW) (LOGIC?) and Iamuss76's Superhero (HARD).
+Some good examples are Haxagon's [Kami no Kotoba](https://www.youtube.com/watch?v=bCJoC8yqyrA&ab_channel=ARCW) (LOGIC?) and Iamuss76's Superhero (HARD).
 
 :::tip
 The opposite of offgrid, which is the classic 3x3 grid without the extension, is known as **ongrid**.
@@ -56,14 +56,14 @@ Said value needs to necessarily be a whole number which is greater than 0.
 Bézier curves can also be created off the grid if the nodes are offgrid too.
 :::
 
-Some good examples are Haxagon's ![Fuego (sakuraburst remix)](https://youtu.be/8DaDoa1LlMw) (LOGIC?) and Azurlexx's Teriqma (HARD).
+Some good examples are Haxagon's [Fuego (sakuraburst remix)](https://youtu.be/8DaDoa1LlMw) (LOGIC?) and Azurlexx's Teriqma (HARD).
 
 ### Meganotes
 A term which refers to multiple notes which are positioned closely together, and need to be hit in the same frame.
 Effectively, this works as an _instakill_ note that will drain a lot of HP if missed.  
 Plus, depending on the notes' spacing, it can be harder to hit all notes at once.
 
-Some good examples are Cruwev's ![Laur-chan's Drawing Song (Hardcore Version)](/src/video/laurchan.mp4)(BRRR/Tasukete) and
+A good example is Cruwev's [Laur-chan's Drawing Song (Hardcore Version)](/src/video/laurchan.mp4)(BRRR/Tasukete)
 
 
 :::warning
