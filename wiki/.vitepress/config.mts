@@ -91,8 +91,13 @@ export default defineConfig({
               ['Installing custom content', '/faq/custom-content'],
               ['Watching replays', '/faq/watching-replays'],
               ['In-game keybinds', '/faq/game-keybinds'],
-              ['Rhythia Online', '/faq/rhythia-online'],
               ['Troubleshooting', '/faq/troubleshooting'],
+            ],
+          ],
+          [
+            'Online',
+            [
+              ['Rhythia Online', '/online/rhythia-online'],
             ],
           ],
           [

@@ -16,7 +16,7 @@ FAQ about the online client
 
 Currently there is no support for Linux with the online client
 
-- Head to [rhythia.com](https://github.com/David20122/sound-space-plus/releases/latest/) and select __Download Online__ ([Download](https://github.com/cunev/rhythia-online-release/releases/download/development/rhythia-online.zip))
+- Head to [rhythia.com](https://www.rhythia.com/) and select __Download Online__ ([Download](https://github.com/cunev/rhythia-online-release/releases/download/development/rhythia-online.zip))
 
 - Once you have downloaded the .zip file, extract it.
 
@@ -84,14 +84,23 @@ Transferring the host:
 ### Rhythia Online will not load
 Try to restart Rhythia Online, if this does not work try restarting your PC
 
-#### Windows can not find node.exe
+If you're on a slower connection you might want to wait a while before restarting just incase, Rhythia Online downloads roughly 200mb of data
+
+#### Windows can't find node.exe / Failed to extract files / Percentage stuck at 100%
 If this error is being thrown a solution might be to go into ```C:/Users/[USERNAME]/AppData/SoundSpacePlus/Helper```
 
 1. Check if inside ```helper``` there are two folders, one being ```extracted``` another being ```tempt```
 
 2. Look inside ```extracted```. If it is empty, simply take the contents of ```temp``` and copy it over to ```extracted```
 
-3. Relaunch the game
+3. Create a text file inside ```C:/Users/[USERNAME]/AppData/SoundSpacePlus``` and rename it to ```helper_version```
+
+4. As of __January 3, 2025__ the string inside ```helper_version``` should be ```1735400730872```
+
+4. Relaunch the game
+
+#### Failed to extract files
+Whitelist the folder on your antivirus software, [click here for a guide!](https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26)
 
 #### My issue is not listed here, or these did not work
 Report your issues to @Cunev via [Discord](https://discord.gg/rhythia)
