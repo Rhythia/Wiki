@@ -95,6 +95,12 @@ export default defineConfig({
             ],
           ],
           [
+            'Online',
+            [
+              ['Rhythia Online', '/online/rhythia-online'],
+            ],
+          ],
+          [
             'Mapping',
             [
               [
