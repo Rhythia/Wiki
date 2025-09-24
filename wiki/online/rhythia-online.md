@@ -16,7 +16,7 @@ FAQ about the online client
 
 Currently there is no support for Linux with the online client
 
-- Head to [rhythia.com](https://www.rhythia.com/) and select __Download Online__ ([Download](https://github.com/cunev/rhythia-online-release/releases/download/development/rhythia-online.zip))
+- Head to [rhythia.com/downloads](https://www.rhythia.com/downloads) and select __Download Online Version__
 
 - Once you have downloaded the .zip file, extract it.
 

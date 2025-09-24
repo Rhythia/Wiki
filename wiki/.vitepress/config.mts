@@ -98,6 +98,7 @@ export default defineConfig({
             'Online',
             [
               ['Rhythia Online', '/online/rhythia-online'],
+              ['Rhythia Points', '/online/rhythia-points'],
             ],
           ],
           [
