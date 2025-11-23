@@ -35,7 +35,7 @@ The following packages are recommended for this version:
 
 - Once the linux.zip file has been downloaded, right click it and extract it.
 
-- After extracting the zip file, run <u>Rhythia.x86_64</u>
+- After extracting the zip file, run <u>SoundSpacePlus.x86_64</u>
 
 ### Non-GUI version
 ::: warning
@@ -56,7 +56,7 @@ $ unzip -d Rhythia linux.zip
 ```sh
 # While inside ~/Downloads
 $ cd Rhythia
-$ ./Rhythia.x86_64
+$ ./SoundSpacePlus.x86_64
 ```
 
 ## Linux troubleshooting
