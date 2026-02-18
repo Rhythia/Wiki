@@ -2,40 +2,26 @@
 layout: home
 
 hero:
-  name: "Rhythia Wiki"
-  text: "Your Complete Guide"
-  tagline: Master the aim-based rhythm game with comprehensive guides, mapping tutorials, and community resources
+  text: "Welcome to the Rhythia Wiki"
+  tagline: Learn how to install the game, create custom content, and contribute to the game!
   actions:
     - theme: brand
-      text: Get Started
+      text: Read the Wiki
       link: /faq/installing-the-game
     - theme: alt
-      text: Learn Mapping
-      link: /mapping/basic-mapping/creating-maps
+      text: Contribute to the Wiki
+      link: https://github.com/Rhythia/Wiki
 
 features:
-  - icon: 🎮
-    title: Quick Start Guide
-    details: Install the game, set up custom content, and learn essential keybinds to start playing right away
-    link: /faq/installing-the-game
-  - icon: 🎵
-    title: Map Creation
-    details: Download the editor, learn pattern fundamentals, and create your own challenging maps for the community
-    link: /mapping/editor-setup/installing-the-editor
-  - icon: 🎨
-    title: Customize Your Experience
-    details: Install custom colorsets, cursors, audio, and backgrounds to personalize your gameplay experience
-    link: /faq/custom-content
-  - icon: 📊
-    title: Advanced Mapping
-    details: Master quantum techniques, spacing, BPM timing, and creative mapping styles for professional-quality maps
-    link: /mapping/basic-mapping/basic-quantum-usage
-  - icon: 🔧
-    title: Troubleshooting
-    details: Fix common issues with detailed solutions for crashes, performance problems, and configuration errors
-    link: /faq/troubleshooting
-  - icon: 🤝
-    title: Join the Community
-    details: Connect with players, share maps, get support, and contribute to the game and wiki on Discord and GitHub
-    link: https://discord.gg/rhythia
+  - title: Stay informed.
+    details: You can read our wiki to learn how to install the game, create custom content, contribute to the game and more!
+  - title: Support
+    details: You may get additional support from the <a class="highlight" href="https://discord.gg/rhythia">official Rhythia Discord server</a>.
 ---
+
+<style>
+a.highlight {
+  color: #3e63dd;
+  text-decoration: underline;
+}
+</style>
