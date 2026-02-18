@@ -24,13 +24,38 @@ You can easily access the User folder by pressing `Open User Folder` in the sett
 - Save the file, go back to the game and press `Reload Content`
 - The colorset you made (or installed) should be available under the `Notes` tab in the settings
 
-## Installing maps
+## Installing Maps
 
-### In-game
+### Rewrite (Current Maintained Client)
+
+#### Method 1: Drag and Drop
+
+After downloading any map, and while you have the game open, simply drag the map file into the game window — it will be imported and focused on automatically.
+
+#### Method 2: Import Maps Button
+
+1. Look for the **Import Map** button in the game.
+2. Navigate to the location of your map(s) and select them.
+
+::: tip Migrating from Nightly (Legacy)?
+If you are migrating from the Nightly client, your maps can be found at:
+- **Windows:** `%appdata%/soundspaceplus/maps`
+- **Linux:** `~/.local/share/soundspaceplus/maps`
+
+Your maps will be imported — it may take a while depending on how many maps you are moving.
+:::
+
+#### Alternative Method
+
+You may also drop map files directly into the `/maps/default` folder inside your game directory. They will be processed similarly to Method 2.
+
+### Nightly (Legacy)
+
+#### In-game
 - Inside your game, on the left bar, select `Content Manager`
 - Follow the instructions presented to you on-screen
 
-### Manual install
+#### Manual install
 *Recommended when installing multiple maps at once*
 
 - When in-game, press `Open User Folder`, or manually head to it in your file manager
