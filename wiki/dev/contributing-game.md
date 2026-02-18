@@ -8,7 +8,7 @@ layout: doc
 This guide will help you setup your workspace to help those interested in contributing to the game!
 
 ::: warning
-This guide is meant to help you setup your workspace if you want to help contribute to **Nightly**
+**Notice:** Nightly is no longer actively maintained. This guide is for contributing to the **Rewrite** client, which is our current maintained version. The contribution process is the same, but you'll be working with the Rewrite repository instead.
 :::
 
 ## Index
@@ -25,12 +25,10 @@ This guide is meant to help you setup your workspace if you want to help contrib
 ## Required software
 To be able to contribute to the game you'll need
 
-- [Godot 3.5.1](https://godotengine.org/download/archive/3.5.1-stable/)
-    - Godot 3.5.3 is fine. Linux users might have to install 3.5.3, depending on the package.
+- [Godot 4.6 stable .NET](https://godotengine.org/download/archive/4.6-stable/)
 - [git for windows](https://gitforwindows.org/)
     - Linux users: `git` package
-- Discord SDK (You can grab this from a release of the game in [here](https://github.com/David20122/sound-space-plus/releases/latest))
-- A [github](https://github.com/) account
+- [github](https://github.com/) account
 
 ### Optional software
 - [Visual Studio Code](https://code.visualstudio.com/) with the [godot-tools](https://marketplace.visualstudio.com/items?itemName=geequlim.godot-tools) extension
@@ -40,7 +38,7 @@ To be able to contribute, you must first get the files and setup your workspace,
 
 ### Before getting the files
 Inside github:
-- Head to the [nightly repository](https://github.com/David20122/sound-space-plus)
+- Head to the [Rewrite repository](https://github.com/Rhythia/Client)
 - Press the Fork button, and make a fork
 
 
@@ -59,9 +57,9 @@ The `$` part is cosmetic, and won't work if you place it
 ```sh
 # The cd command is used for moving to a certain directory.
 $ cd Documents/Rhythia
-$ git clone https://github.com/YOUR_USERNAME/sound-space-plus.git
+$ git clone https://github.com/YOUR_USERNAME/Client.git
 # If you changed the fork's repository name
-# replace sound-space-plus with the repository's name. 
+# replace Client with the repository's name. 
 ```
 
 ### Adding the files to Godot
@@ -73,13 +71,9 @@ Once you got the files, you have to add them to godot engine
 - Navigate to your repository folder, select the `project.godot` file and press Open.
 
 ### Importing the Discord SDK to the repository folder
-::: warning
-This part is crutial to be able to debug the game inside the Engine! Skipping this part will make debug __NOT WORK__!!
+::: info
+The Rewrite client includes the necessary SDK dependencies. You may be able to skip this depending on the setup instructions in the repository's README.
 :::
-
-- Grab the `discord_game_sdk.dll` (Windows) or `libdiscord_game_sdk.so` (Linux) from a release
-- Copy the file to addons/discord_game_sdk
-- You're all set
 
 ## Requesting your changes to be added
 - Firstly you have to add your changes to your repository, you can do so by doing
@@ -92,12 +86,13 @@ $ git add ./FOLDER_WHERE_YOUR_FILE_WAS_MADE
 *Adding the changes to your repository*
 ```sh
 $ git commit -m "Your message" ./Folder_to_add
-$ git push
+$ git push origin indev
 ```
 
 - Once the changes are in your repository, head to your forked repository
-- Inside you should have a message such as `This branch is 1 commit ahead of David20122/sound-space-plus:nightly.`
+- Inside you should have a message such as `This branch is 1 commit ahead of Rhythia/Client:indev.`
 - Press the `Contribute` button and click on `Open pull request`
+- Ensure your pull request is targeting the **indev** branch of the main repository
 - You'll be prompted to see the changes made compared to the current ones in the main game repository
 - Once done viewing the changes, press `Create pull request`
 - Add a title, a description and press `Create pull request`. Wait for maintainers to review your code and for their feedback.
